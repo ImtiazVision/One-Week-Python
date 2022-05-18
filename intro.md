@@ -11,3 +11,12 @@ Python is a high-level, interpreted, interactive, and object-oriented scripting 
   - Established interface with all major DB's
   - Runs on a wide range of hardware platforms
 
+### Python's technological features
+
+  - **Dynamically** and **strongly** typed
+  - **Object-oriented**
+  - **High-level** dynamic data types and supports dynamic type checking
+  - **Interpreted** makes compiler interact with developers
+  - Whitespace delimited (Indentation)
+  - **Scripting** language that supports large applications
+  - Easy integration with other languages such as c, c++, java, etc.
