@@ -3,7 +3,7 @@
 ### Basic Python Data Types
 
   - **Strings**
-  - **Integers**
+  - **Integers**: Positive or negative whole numbers exclusively, with no decimal points.
   - **Floats**
   - **Booleans**
 
