@@ -1,10 +1,15 @@
 ### Python Data Types
 
-  - Strings
-  - Integers
-  - Floats
+### Basic Python Data Types
+
+  - **Strings**
+  - **Integers**
+  - **Floats**
+  - **Booleans**
+
+### Other Python Data Types
+
   - Complex numbers
-  - Booleans
   - Bytes
   - Dictionary
   - Range
