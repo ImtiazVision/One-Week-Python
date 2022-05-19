@@ -15,3 +15,5 @@
   - List
   - Tuple
   - Set
+
+In order to know the data type, we can use `type()` function. 
