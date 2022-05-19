@@ -19,4 +19,4 @@ Python is a high-level, interpreted, interactive, and object-oriented scripting 
   - **Interpreted** makes compiler interact with developers
   - Whitespace delimited (Indentation)
   - **Scripting** language that supports large applications
-  - Easy integration with other languages such as c, c++, java, etc.
+  - Easy integration with other languages such as c, c++, java, etc. 
