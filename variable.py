@@ -5,3 +5,5 @@
 score = 433
 
 # here score is variable and equal sign (=) is the assignment operator and 433 is the value.
+
+# A variable can't start with a number.
