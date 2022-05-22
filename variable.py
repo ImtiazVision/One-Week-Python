@@ -6,4 +6,4 @@ score = 433
 
 # here score is variable and equal sign (=) is the assignment operator and 433 is the value.
 
-# A variable can't start with a number.
+# A variable can't start with a number. A variable name can't contain spaces. A variable name can't contain any python keywords such as for, if, while, def, class, False, await, else, import, pass, None, break, except, in, raise, True, finally, is, return, and, continue, lambda, try, as, from, nonlocal, assert,del, global, not, with, async, elif, or, yield etc.
