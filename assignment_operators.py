@@ -13,6 +13,10 @@ print("prize_money", prize_money)
 prize_money -= 55 # this yields 905
 print("prize_money", prize_money)
 
-# Similarly, we can do the multiply  using the *= operator
-prize_money *= 100 # this yields 900,000
+# Similarly, we can do the multiplication  using the *= operator
+prize_money *= 100 # this yields 90500
+print("Prize_money", prize_money)
+
+# Similarly, we can do the division using the /= operator
+prize_money /= 100 # this yields 905.00
 print("Prize_money", prize_money)
