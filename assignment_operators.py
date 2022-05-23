@@ -9,4 +9,10 @@ print("prize_money", prize_money)
 prize_money += 80  # this yields 960
 print("prize_money", prize_money)
 
+# Similarly we can do the opposite thing using the -= operator
+prize_money -= 55 # this yields 905
+print("prize_money", prize_money)
 
+# Similarly, we can do the multiply  using the *= operator
+prize_money *= 100 # this yields 900,000
+print("Prize_money", prize_money)
