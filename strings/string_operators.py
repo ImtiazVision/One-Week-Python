@@ -10,3 +10,10 @@ last_name = 'Smith'
 
 full_name = first_name + ' ' + last_name
 
+one = '1'
+fifty_four = '54'
+concatenation = one + fifty_four
+
+print(concatenation)
+
+
