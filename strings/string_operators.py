@@ -21,3 +21,6 @@ print(concatenation)
 string = 'Imtiaz' * 8
 print(string)
 
+# this will give an error message
+str = 'imtiaz' * 'imtiaz'
+print(str)  # TypeError: can't multiply sequence by non-int of type 'str'
