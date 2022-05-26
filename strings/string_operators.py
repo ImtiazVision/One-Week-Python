@@ -16,4 +16,8 @@ concatenation = one + fifty_four
 
 print(concatenation)
 
+# We can multiply a string by a number. However, we can't multiply a string by a string.
+
+string = 'Imtiaz' * 8
+print(string)
 
