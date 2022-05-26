@@ -23,4 +23,4 @@ print(string)
 
 # this will give an error message
 str = 'imtiaz' * 'imtiaz'
-print(str)  # TypeError: can't multiply sequence by non-int of type 'str'
+print(str)  # TypeError: can't multiply sequence by non-int of type 'str', can only concatenate str (not "str") to str
