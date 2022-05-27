@@ -1,0 +1,1 @@
+# Strings are indexed that means every character in a string has a corresponding index number/positional number starting from 0.
