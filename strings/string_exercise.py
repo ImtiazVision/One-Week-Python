@@ -15,5 +15,6 @@ initials_2 = first[0] + '.' + last[0] + '.'
 print(initials_2)
 
 # creating a 'nickname' variable that holds the first 4 characters of the last name
-nickname = last[0:4]
+# nickname = last[0:4]
+nickname = last[:4]
 print(nickname)
