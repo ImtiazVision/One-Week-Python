@@ -1,0 +1,1 @@
+# The type() function accepts an input object and will return the corresponding type of that object.
