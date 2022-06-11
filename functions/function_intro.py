@@ -3,5 +3,7 @@
 print()
 type()
 help()
+range()
+len()
 
 # Arguments are input values that we pass/provide to a function. Argument is a fancy word for inputs. For example, burger(tomato, lettuce,cheese, well_done)
