@@ -16,3 +16,4 @@ print(type(str(42)))
 
 score = '888'
 print(type(int(score)))
+print(type(score))
