@@ -1,0 +1,1 @@
+# The input() function is used to get input from the user. It will prompt the user to enter some input, converts it into a string, and returns it.
