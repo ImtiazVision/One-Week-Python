@@ -1,0 +1,1 @@
+# Functions are reusable blocks of code that can be called to do something. To execute a function, we use parenthesis
