@@ -4,4 +4,4 @@ print()
 type()
 help()
 
-# Arguments are input values that are passed to a function. Argument is a fancy word for inputs. For example, burger(tomato, lettuce,cheese, well_done)
+# Arguments are input values that we pass/provide to a function. Argument is a fancy word for inputs. For example, burger(tomato, lettuce,cheese, well_done)
