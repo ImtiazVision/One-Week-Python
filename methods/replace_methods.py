@@ -1,0 +1,1 @@
+# str.replace(old, new, [count]) method replaces all occurrences of old in string with new.
