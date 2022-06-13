@@ -2,9 +2,16 @@
 
 # Some common string methods are followings: 
 
-str.capitalize() # Capitalize first letter of string
-str.upper() # Convert string to uppercase
-str.lower() # Convert string to lowercase
-str.find() # Find first occurrence of substring
-str.join() # Join list of strings into one string
-str.split() # Split string into list of substrings
+# str.capitalize() Capitalize first letter of string
+# str.upper()  Convert string to uppercase
+# str.lower()  Convert string to lowercase
+# str.find()  Find first occurrence of substring
+# str.join()  Join list of strings into one string
+# str.split()  Split string into list of substrings
+
+
+# Capitalization Methods
+
+message = "hey there"
+capitalize = message.capitalize()
+print(capitalize)
