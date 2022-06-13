@@ -15,3 +15,13 @@
 message = "hey there"
 capitalize = message.capitalize()
 print(capitalize)
+
+# Uppercase Methods
+msg = 'welcome to the coding journey'
+uppercase = msg.upper()  
+print(uppercase)
+
+# Lowercase Methods
+message1 = 'This Is About Persistence'
+lowercase = message1.lower()
+print(lowercase)
