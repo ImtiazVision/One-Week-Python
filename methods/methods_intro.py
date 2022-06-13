@@ -1,0 +1,1 @@
+# Methods: are part of objects that we can call them on. They are functions that 'live' on objects. They automatically have access to the object they are called on.
