@@ -4,6 +4,6 @@ msg = "  Hello World   " # removes only the leading and trailing whitespace from
 strip = msg.strip()
 print(strip)
 
-msg1 = '--------------Hello      World----------'
-strip1 = msg1.strip('-') # removes the '-' from the string 
+msg1 = '--------,,,....------Hello      World--!!!###$$$--------'
+strip1 = msg1.strip('- , . ! # $') # removes the '-' from the string 
 print(strip1)
