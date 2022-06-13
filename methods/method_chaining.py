@@ -9,3 +9,7 @@ print(formatted_address)
 email = 'RAAAZ@gmail.com   '
 formatted_email = email.strip().lower()
 print(formatted_email)
+
+contact_num = '    111 444 8888    '
+formatted_contact_num = contact_num.strip().replace(' ', '-')
+print(formatted_contact_num)
