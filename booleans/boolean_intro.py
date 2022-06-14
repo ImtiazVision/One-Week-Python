@@ -15,3 +15,7 @@
 # is : Evaluates to True if a and b both refer to the same object in memory (i.e. same memory address)
 
 # is not : Evaluates to True if a and b do NOT refer to the same object in memory (i.e. different memory address)
+
+# Falsey Values 
+
+# False, 0, 0.0, None, range(0), empty strings "", Empty data structures (), [], {}, set() etc.
