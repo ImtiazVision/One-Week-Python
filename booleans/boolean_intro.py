@@ -1,1 +1,2 @@
-# Boolean is a basic data type in python used to make decisions, compare things, and logical operations. 
+# Boolean is a basic data type in python used to make decisions, compare things, and logical operations. Every boolean is either True or False.
+#For example, has the user logged in? Yes or No. If they have logged in, then the boolean is True. If they have not logged in, then the boolean is False.
