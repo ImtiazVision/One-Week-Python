@@ -9,3 +9,9 @@
 # a <= b : Truthy if a is less than or equal to b
 # a == b : Truthy if a is equal to b
 # a != b : Truthy if a is not equal to b
+
+# Identity Operators:
+
+# is : Evaluates to True if a and b both refer to the same object in memory (i.e. same memory address)
+
+# is not : Evaluates to True if a and b do NOT refer to the same object in memory (i.e. different memory address)
