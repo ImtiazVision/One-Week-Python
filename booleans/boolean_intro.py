@@ -1,0 +1,1 @@
+# Boolean is a basic data type in python used to make decisions, compare things, and logical operations. 

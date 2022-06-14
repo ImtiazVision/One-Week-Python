@@ -16,7 +16,7 @@ press_release = press_release.replace("dog poop", "pet waste")
 press_release = press_release.replace("Doody Calls", "DoodyCalls")
 # print(replace_str1)
 
-# Our research shows that it's best to shout our press releases. Make the entire press release uppercased!
+# Our research shows that it's best to shout our press releases. Make the entire press release uppercase!
 press_release = press_release.upper()
 # Print out the updated press release with all of the above changes:
 print(press_release)
