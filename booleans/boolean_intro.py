@@ -19,3 +19,5 @@
 # Falsey Values 
 
 # False, 0, 0.0, None, range(0), empty strings "", Empty data structures (), [], {}, set() etc.
+
+# 'in' operator looks for the presence of an item in a list, tuple, string, dictionary, set, or any other iterable. It looks to see if an item is a member of a sequence. If the item is not found, it returns False. If the item is found, it returns True.
