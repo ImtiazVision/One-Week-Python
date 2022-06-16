@@ -1,4 +1,5 @@
-unit = 'fahrenheit'
+# unit = 'fahrenheit'
+unit = 'celsius'
 temp = int(input('Enter the temperature: '))
 
 if unit == 'fahrenheit':
