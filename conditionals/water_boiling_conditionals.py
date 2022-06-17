@@ -9,3 +9,13 @@ if unit == 'f':
     print("Water is boiling")
   else:
     print("Water is not boiling. Must hit 212 degrees")
+elif unit == 'c':
+  if temp == '100':
+    print("Water is boiling")
+  else:
+    print("Water is not boiling. Must hit 100 degrees")
+elif unit == 'k':
+  if temp == '373':
+    print("Water is boiling")
+  else:
+    print("Water is not boiling. Must hit 373 degrees")
