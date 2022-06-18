@@ -1,0 +1,1 @@
+# The 'or' operator will evaluate to True if one or both of the left or right sides evaluate to True.
