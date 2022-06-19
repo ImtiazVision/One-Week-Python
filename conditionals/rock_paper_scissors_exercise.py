@@ -38,7 +38,7 @@ elif num == 3:
 
 
 # Ask a user to enter their move
-user_move = input("Enter your move(rock, paper, or scissors): ")
+user_move = input("Enter your move(rock, paper, or scissors): ").lower()
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the player's move
 
