@@ -21,7 +21,7 @@ scissors = """
     _______
 ---'   ____)____
           ______)
-       __________)
+      __________)
       (____)
 ---.__(___)
 """
@@ -29,6 +29,12 @@ scissors = """
 num = randint(1, 3)
 
 # Turn that random number into the computer's RPS move
+if num == 1:
+  computer_move = "rock"
+elif num == 2:
+  computer_move = "paper"
+else:
+  computer_move = "scissors"
 
 
 # Ask a user to enter their move
