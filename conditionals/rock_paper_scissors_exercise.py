@@ -33,7 +33,7 @@ if num == 1:
   computer_move = "rock"
 elif num == 2:
   computer_move = "paper"
-else:
+elif num == 3:
   computer_move = "scissors"
 
 
