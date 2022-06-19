@@ -41,6 +41,7 @@ elif num == 3:
 user_move = input("Enter your move(rock, paper, or scissors): ").lower()
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the player's move
+print("YOUR MOVE: ")
 if user_move == "rock":
   print(rock)
 elif user_move == "paper":
