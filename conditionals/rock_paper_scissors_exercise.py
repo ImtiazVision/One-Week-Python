@@ -59,3 +59,18 @@ elif computer_move == "scissors":
   print(scissors)
 
 # Figure out who wins and print the result!
+if user_move == computer_move:
+  print("It's a tie!")
+elif user_move == "rock" and computer_move == "scissors":
+  print("You win!")
+elif user_move == "paper" and computer_move == "rock":
+  print("You win!")
+elif user_move == "scissors" and computer_move == "paper":
+  print("You win!")
+elif user_move == "rock" and computer_move == "paper":
+  print("You lose!")
+elif user_move == "paper" and computer_move == "scissors":
+  print("You lose!")
+elif user_move == "scissors" and computer_move == "rock":
+  print("You lose!")
+
