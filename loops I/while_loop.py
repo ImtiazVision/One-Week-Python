@@ -14,7 +14,14 @@
 #   print(x)
 #   x -= 1 
 
-count = 0
-while count <= 5:
-    print(count)
-    count += 1
+# count = 0
+# while count <= 5:
+#     print(count)
+#     count += 1
+
+num = 15
+
+while num > 0:
+    print(f"Number is {num}")
+    num -= 1
+    
