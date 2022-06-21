@@ -26,9 +26,22 @@
 #     num -= 1
     
 
-num = 0
+# num = 0
 
-while num < 10 :
-  print(f"Number is {num}")
-  num += 1 # increment the number from 0 to all the way to 9
-print("After the loop")
+# while num < 10 :
+  # print(f"Number is {num}")
+  # num += 1 # increment the number from 0 to all the way to 9
+# print("After the loop")
+
+
+count = 0
+
+while count < 8:
+  print("*" * count)
+  count +=1
+  
+count = 8
+
+while count > 0:
+  print("*" * count)
+  count -=1
