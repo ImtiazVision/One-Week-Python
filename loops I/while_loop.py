@@ -30,4 +30,4 @@ num = 0
 
 while num < 10 :
   print(f"Number is {num}")
-  num += 1 # increment the number
+  num += 1 # increment the number from 0 to all the way to 9
