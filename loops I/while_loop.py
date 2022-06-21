@@ -19,9 +19,15 @@
 #     print(count)
 #     count += 1
 
-num = 15
+# num = 15
 
-while num > 0:
-    print(f"Number is {num}")
-    num -= 1
+# while num > 0:
+#     print(f"Number is {num}")
+#     num -= 1
     
+
+num = 0
+
+while num < 10 :
+  print(f"Number is {num}")
+  num += 1 # increment the number
