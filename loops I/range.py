@@ -1,3 +1,5 @@
+# range returns an object that produces a sequence of integers from start (inclusive) to stop (exclusive) by step. Step specifies the increment/decrement. 
+# Example: range(i, j) produces i, i+1, i+2, i+3, ..., j-1. Start defaults to 0, and stop is omitted. range(4) produces 0, 1, 2, 3. 
 for num in range (0,10,2):
   print(num)
 print("********************************************************")
