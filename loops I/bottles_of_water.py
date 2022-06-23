@@ -9,7 +9,8 @@ for num_bottles in range(99,0,-1):
   print("*" * 50)
 print("*******************************") 
 
-bottle = 99
-while bottle > 0:
-  print(f'{bottle} bottles of water left on the wall')
-  bottle -= 1
+# While loop implementation
+num_bottles = 99
+while num_bottles > 0:
+  print(f'{num_bottles} bottles of water left on the wall')
+  num_bottles -= 1
