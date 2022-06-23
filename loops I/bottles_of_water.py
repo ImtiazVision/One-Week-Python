@@ -2,7 +2,11 @@
 for num_bottles in range(99,0,-1):
   print(f'{num_bottles} bottles of water on the wall.')
   print(f'{num_bottles} bottles of water.')
-  print(f'Take one down, pass it around,{num_bottles - 1} bottles of water on the wall.')
+  if num_bottles == 1:
+    print(f"Take one down, pass it around, no more bottle of water on the wall.")
+  else:
+    print(f'Take one down, pass it around, {num_bottles - 1} bottles of water on the wall.')
+  print("*" * 50)
 print("*******************************") 
 
 bottle = 99
