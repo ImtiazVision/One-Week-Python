@@ -38,3 +38,9 @@ for number in range(100,141,2):
 #    PART 3
 #  ----------
 # Write a loop that asks a user to input the passphrase "sillygoose" and keeps asking them to do so until they comply:
+
+user_input = input("Enter passphrase: ")
+
+while user_input != 'sillygoose':
+  user_input = input("Please enter again: ")
+  
