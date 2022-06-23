@@ -11,7 +11,11 @@ for char in word:
 
 
 # Write a while loop that does the same thing!
-
+index = 0
+while index < len(word):
+  print(word[index])
+  index += 1
+  
 
 #  ----------
 #    PART 2
