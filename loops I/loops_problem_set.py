@@ -31,7 +31,8 @@ while number <= 140:
 
 
 # Write a for loop that does the same thing (with range())
-
+for number in range(100,141,2):
+  print(f'for loop {number}')
 
 #  ----------
 #    PART 3
