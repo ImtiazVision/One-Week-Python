@@ -13,8 +13,8 @@ print("End of loop")
 
 message = input("Please greet with a 'hi': ")
 
-while True:
-  if message == 'hi':
+while True: # infinitely run the loop bc condition will always be True by default
+  if message == 'hi': # until if the message is 'hi' break away/exit the loop
     break
   message = input("Say hi: ")
   
