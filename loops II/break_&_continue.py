@@ -21,3 +21,5 @@ print("FINALLY! THANKS FOR SAYING HI")
   
 
 # The 'continue' keyword end the current iteration of the loop, but does not break out of the loop.
+
+# for loop implementation of 'continue' keyword
