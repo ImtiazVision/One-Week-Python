@@ -23,3 +23,8 @@ print("FINALLY! THANKS FOR SAYING HI")
 # The 'continue' keyword end the current iteration of the loop, but does not break out of the loop.
 
 # for loop implementation of 'continue' keyword
+for letter in 'baseball':
+  if letter == 'a': # the loop will skip if letter is 'a' and continue to the next iteration
+    continue
+  print(letter)
+print("END OF LOOP")
