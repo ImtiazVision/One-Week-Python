@@ -17,6 +17,7 @@ while True: # infinitely run the loop bc condition will always be True by defaul
   if message == 'hi': # until if the message is 'hi' break away/exit the loop
     break
   message = input("Say hi: ")
+print("FINALLY! THANKS FOR SAYING HI")
   
 
 # The 'continue' keyword end the current iteration of the loop, but does not break out of the loop.
