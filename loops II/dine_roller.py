@@ -5,6 +5,6 @@ num_sides = int(input("How many sides on each die? "))
 # 
 
 while True:
-  input("Roll again? ('q' to quit)")
+  reply = input("Roll again? ('q' to quit)")
   print(randint(1, num_sides))
 
