@@ -5,8 +5,11 @@ num_sides = int(input("How many sides on each die? "))
 # 
 
 while True:
+  divider = "|"
   for die in range(num_dice):
-    print(randint(1, num_sides))
+    rand = randint(1, num_sides)
+    divider += f'{rand}|'
+  print(divider)
   reply = input("Roll again? ('q' to quit)")
   if reply == 'q':
     break
