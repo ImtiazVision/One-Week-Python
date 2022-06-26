@@ -45,3 +45,9 @@ count = 8
 while count > 0:
   print("*" * count)
   count -=1
+  
+  
+count = 1
+while count <= 10:
+  print('loop in progress')
+  count += 1
