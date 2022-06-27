@@ -1,6 +1,7 @@
 # ask for players name
 print("Welcome To The Game!")
 print("**********************")
+left_number = 13
 player_2_name = input("Enter player 1's name: ")
 player_1_name = input("Enter player 2's name: ")
 # game loop, until someone wins: we 'break' out of the loop
