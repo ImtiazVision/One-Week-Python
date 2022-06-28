@@ -17,7 +17,7 @@ while True:
   num_of_toothpick_remaining -= player_input
 # check to see if they win, whoever takes the last toothpick will win!
   if num_of_toothpick_remaining <= 0:
-    print(f'{player_1_name} wins the game!')
+    print(f'{current_player} wins the game!')
     break
 
 
