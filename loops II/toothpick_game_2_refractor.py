@@ -19,6 +19,10 @@ while True:
   if num_of_toothpick_remaining <= 0:
     print(f'{current_player} wins the game!')
     break
+  if current_player == player_1_name:
+    current_player = player_2_name
+  else:
+    current_player = player_1_name
 
 
 print("GAME OVER!")
