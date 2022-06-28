@@ -14,6 +14,8 @@ while True:
 # ask player to enter number of toothpick s/he would take away and subsequently subtract that number from original toothpick number
   player_input = int(
       input(f"{current_player}, how many toothpicks do you take? "))
+  while player_input != 1 and player_input != 2 and player_input != 3:
+    player_input = int(input(f'You can only choose 1, 2, or 3: '))
   num_of_toothpick_remaining -= player_input
 # check to see if they win, whoever takes the last toothpick will win!
   if num_of_toothpick_remaining <= 0:
