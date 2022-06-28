@@ -28,7 +28,7 @@ while True:
   if num_of_toothpick_remaining <=0:
     print(f'{player_2_name} wins the game!')
     break
-  print("GAME OVER!")
+print("GAME OVER!")
 
 
 
