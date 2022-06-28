@@ -11,12 +11,19 @@ while True:
   print(f'There are {num_of_toothpick_remaining} toothpicks left.')
   player_1_input = int(input(f"{player_1_name}, how many toothpicks do you take? "))
   num_of_toothpick_remaining -= player_1_input
+  if num_of_toothpick_remaining <=0:
+    print(f'{player_1_name} wins the game!')
+    break
 
   print('| ' * num_of_toothpick_remaining)
   print(f'There are {num_of_toothpick_remaining} toothpicks left.')
   player_2_input = int(
       input(f"{player_2_name}, how many toothpicks do you take? "))
   num_of_toothpick_remaining -= player_2_input
+  if num_of_toothpick_remaining <=0:
+    print(f'{player_2_name} wins the game!')
+    break
+  print("GAME OVER!")
 # game loop, until someone wins: we 'break' out of the loop
 
 # ask player 1 to enter number of toothpick s/he would take away and subsequently subtract that number from original toothpick number
