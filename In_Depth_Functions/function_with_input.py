@@ -12,6 +12,6 @@ laugh(8)
 
 # There is, nevertheless, a distinction.
 
-# 'Parameter' is simply the variable that holds the value/input of the argument.
+# 'Parameter' is simply the variable that holds the value/input of the argument. For example, laugh(intensity), where intensity is a parameter that holds the user's value/input.
   
 # However, anytime we execute a function, it is referred to as a 'argument' since we call the function with the input provided such as 'laugh(8). Here, '8' is the provided input called as 'argument'. 
