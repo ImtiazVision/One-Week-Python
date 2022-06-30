@@ -1,5 +1,6 @@
 # 'intensity' inside the parenthesis is an 'argument/parameter' which ask the user for an input from their end
 
+# here we just came up with the variable name 'intensity'
 def laugh(intensity):
   print('HA' * intensity)
 
