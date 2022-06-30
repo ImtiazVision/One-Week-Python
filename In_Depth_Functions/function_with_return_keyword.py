@@ -2,6 +2,8 @@
 
 def multiply(a,b):
   return a*b
+  print(a*b) # this line of code won't get printed out since 'return' keyword ends the execution of a function.
+  
 # We can save the outcome of the function in a variable and then print it out.
 result = multiply(8,8)
 print(result)
