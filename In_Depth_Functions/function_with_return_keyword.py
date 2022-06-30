@@ -2,5 +2,6 @@
 
 def multiply(a,b):
   return a*b
-
-multiply(8,8)
+# We can save the outcome of the function in a variable and then print it out.
+result = multiply(8,8)
+print(result)
