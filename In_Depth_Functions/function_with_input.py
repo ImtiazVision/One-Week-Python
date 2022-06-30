@@ -12,4 +12,4 @@ laugh(8)
 
 # 'Parameter' is just the variable that holds the arguments value/input
   
-# However, whenever we execute a function, it is called an 'argument' by calling the function with input provided 'laugh(8)'
+# However, anytime we execute a function, it is referred to as a 'argument' since we call the function with the input provided such as 'laugh(8). Here, '8' is the provided input called as 'argument'. 
