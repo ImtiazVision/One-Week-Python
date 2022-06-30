@@ -8,7 +8,9 @@ def laugh(intensity):
 laugh(8)
 
 
-# The terms 'parameter/argument' are used interchangeably, which is merely a variable. 
+# The terms 'parameter/argument' are used interchangeably, which is merely a variable.
+
+# There is, nevertheless, a distinction.
 
 # 'Parameter' is simply the variable that holds the value/input of the argument.
   
