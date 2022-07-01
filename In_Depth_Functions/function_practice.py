@@ -24,7 +24,7 @@
 # print(result)
 
 def slugify(str):
-  str = str.lower()
+  str = str.lower().strip().replace(' ', '-')
   print(str)
   
-slugify("Hello")
+slugify("   Hello there  WE ARE    HUMAN   ")
