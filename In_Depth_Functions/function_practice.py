@@ -23,10 +23,10 @@
 # result = is_even(9)
 # print(result)
 
-def slugify(phrase):
+# def slugify(phrase):
   # Here, we convert the phrase to lowercase, then remove the preceding and trailing spaces, and finally replace the empty spaces with a dash '-'.
-  return phrase.lower().strip().replace(' ', '-')
-  
-  
-phrase = slugify("   Hello there  WE ARE    HUMAN   ")
-print(phrase)
+  # return phrase.lower().strip().replace(' ', '-')
+    
+# phrase = slugify("   Hello there  WE ARE    HUMAN   ")
+# print(phrase)
+
