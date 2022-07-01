@@ -5,7 +5,7 @@ strip = msg.strip()
 print(strip)
 
 msg1 = '--------,,,....------Hello      World--!!!###$$$--------'
-strip1 = msg1.strip('- , . ! # $') # removes the '-' from the string 
+strip1 = msg1.strip('- , . ! # $') # removes the '- , . ! # $' from the string 
 print(strip1)
 
 # lstrip removes the leading whitespace from a string

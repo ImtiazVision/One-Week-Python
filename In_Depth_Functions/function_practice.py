@@ -22,3 +22,9 @@
 
 # result = is_even(9)
 # print(result)
+
+def slugify(str):
+  str = str.lower()
+  print(str)
+  
+slugify("Hello")
