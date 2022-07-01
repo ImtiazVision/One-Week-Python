@@ -4,7 +4,8 @@
 #   else:
 #     return False
   
-# is_even(8)
+# result = is_even(7)
+# print(result)
 
 # def is_even(num):
 #   if num % 2 == 0:
@@ -12,7 +13,8 @@
 #   return False
 
 
-# is_even(8)
+# result = is_even(8)
+# print(result)
 
 def is_even(num):
   return num % 2 == 0
