@@ -16,8 +16,9 @@
 # result = is_even(8)
 # print(result)
 
-def is_even(num):
-  return num % 2 == 0
+# best modified short function
+# def is_even(num):
+#   return num % 2 == 0
 
-result = is_even(9)
-print(result)
+# result = is_even(9)
+# print(result)
