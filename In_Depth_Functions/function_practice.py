@@ -30,6 +30,6 @@
 # phrase = slugify("   Hello there  WE ARE    HUMAN   ")
 # print(phrase)
 
-def vowel_counter(count):
-  while count == 'aeiou':
+def vowel_counter(word):
+  while word == 'aeiou':
     
