@@ -35,5 +35,9 @@ def vowel_counter(word):
   
   count = 0
   for each_character in word:
-    
+    # to check if the character is a vowel, we can use the 'in' keyword
+    if each_character in 'aeiou':
+      count += 1
+    return count
+  
     
