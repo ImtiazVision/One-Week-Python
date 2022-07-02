@@ -38,6 +38,7 @@ def vowel_counter(word):
     # to check if the character is a vowel, we can use the 'in' keyword
     if each_character in 'aeiou':
       count += 1
-    return count
+  return count
 total_number_of_vowels = vowel_counter('apple') # since the function is returning the count of vowels, we need to store function call with arguments in a variable and then print it on the console. 
+print(total_number_of_vowels)
     
