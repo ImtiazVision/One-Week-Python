@@ -9,3 +9,7 @@ default = sound_level()
 print(extreme)
 print(default)
   
+#******************************************
+
+def slugify(phrase, separated_by="-"):
+  return phrase.lower().strip().replace(" ", separated_by) 
