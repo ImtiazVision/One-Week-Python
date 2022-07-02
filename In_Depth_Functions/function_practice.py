@@ -30,3 +30,5 @@
 # phrase = slugify("   Hello there  WE ARE    HUMAN   ")
 # print(phrase)
 
+def vowel_counter(count):
+  
