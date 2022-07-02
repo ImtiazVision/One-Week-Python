@@ -31,4 +31,5 @@
 # print(phrase)
 
 def vowel_counter(count):
-  
+  while count == 'aeiou':
+    
