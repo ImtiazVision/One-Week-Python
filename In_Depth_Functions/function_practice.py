@@ -32,6 +32,8 @@
 
 def vowel_counter(word):
   # we  need a counter to count how many times we encounter a vowel while looping over every character of argument 'word', so we add one and set it equal to 0
+  
   count = 0
-  while word == 'aeiou':
+  for each_character in word:
+    
     
