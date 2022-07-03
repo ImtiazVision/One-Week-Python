@@ -2,3 +2,12 @@
 # 4 types of scoping
 # Lexical, Enclosing, Global, Built-in (LEGB)
 # Global Scope: Variables declared outside of functions are in the global scope. All functions have access to them.
+
+movie = 'Titanic'
+def review():
+  print(movie)
+  def inner():
+    print(movie)
+    
+  inner()
+review()
