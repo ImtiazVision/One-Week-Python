@@ -13,3 +13,6 @@ print(default)
 
 def slugify(phrase, separated_by="-"):
   return phrase.lower().strip().replace(" ", separated_by) 
+
+slugify("Hi there welcome to python study")
+slugify("Hi there welcome to python study", "_") # 
