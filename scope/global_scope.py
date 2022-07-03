@@ -1,0 +1,1 @@
+# Scope/boundary means where can we reference a given variable 
