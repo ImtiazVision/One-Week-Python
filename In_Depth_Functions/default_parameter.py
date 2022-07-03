@@ -15,4 +15,4 @@ def slugify(phrase, separated_by="-"):
   return phrase.lower().strip().replace(" ", separated_by) 
 
 slugify("Hi there welcome to python study")
-slugify("Hi there welcome to python study", "_") # 
+slugify("Hi there welcome to python study", "_") # or we can provide our own argument "_" underscore
