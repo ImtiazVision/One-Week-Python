@@ -7,3 +7,5 @@ get_total(8.90, 5, 0.0875, 0.15)
 
 get_total(price=8.90, quantity=5,  tax=0.0875, discount=0.15)
 get_total(price=8.90, discount=0.15, quantity=5, tax=0.0875)
+# keyword arguments always has to be after the positional argument
+get_total(8.80, 4, tax=0.04, discount=0.5) # here first 2 arguments are positional arguments and last 2 are keyword arguments.
