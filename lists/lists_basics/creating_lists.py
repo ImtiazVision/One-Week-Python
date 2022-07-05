@@ -2,3 +2,6 @@
 
 # The most important thing to remember is that list is a ordered collection of data. 
 
+# Creating Lists:
+
+tasks = ["Study", "Workout", "Laundry", "Shopping"]
