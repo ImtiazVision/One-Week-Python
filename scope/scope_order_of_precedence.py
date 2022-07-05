@@ -8,9 +8,11 @@ def outer():
   
   def inner():
     print("From inner function :", book)
+    print(str) # str is a built-in function and python will go through LEGB and find it as Built-in function and print it out on console
+  inner()
+    
   print("From outer function: ",book)
   
-  inner()
   
 print("From outside of all function: ", book)
 
