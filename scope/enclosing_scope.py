@@ -3,5 +3,5 @@
 def outside():
   a = 10
   def inside():
-    print('a is: ', a)
+    print('a is: ', a) # nested function inside() has access to the variable declared in the parent function 'a'
   inside()
