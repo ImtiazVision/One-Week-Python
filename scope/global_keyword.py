@@ -6,3 +6,11 @@ def outer():
 outer()
 
 print(movie)
+
+score = 289 
+
+def final_score():
+  global score
+  score *= 2
+  print(score)
+final_score()
