@@ -1,0 +1,1 @@
+# Lists are ordered collection of data. They can hold any of the data types such as 'int', 'float', 'boolean', 'string' etc. 
