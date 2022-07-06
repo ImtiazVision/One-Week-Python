@@ -5,3 +5,8 @@
 # Creating Lists:
 
 tasks = ["Study", "Workout", "Laundry", "Shopping"]
+
+random_stuff = [5, 8.11, True, False, 'hello', [] ]
+
+score = [135, 241, 115, 35, 95, 91]
+
