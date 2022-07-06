@@ -9,3 +9,9 @@ print(list1) # output: list1 = [1,2,3,4,5]
 nums = [1,2,3]
 nums.extend('abc')
 print(nums)
+
+# list1.append(nums) # appends just add the entire 2nd list to the end of the first list
+# print(list1)
+
+list1.extend(nums) # extend offers iterable and go through each element of the 2nd list that we are extending upon and add elements from the 2nd list to first list one by one
+print(list1)
