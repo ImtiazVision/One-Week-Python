@@ -10,3 +10,6 @@ random_stuff = [5, 8.11, True, False, 'hello', [] ]
 
 score = [135, 241, 115, 35, 95, 91]
 
+print(list('Hello'))  # output: ['H', 'e', 'l', 'l', 'o']
+
+print(list(range(0, 10)))  # output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
