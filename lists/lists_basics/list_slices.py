@@ -10,3 +10,7 @@ print(wish_list[::2])  # ['house', 'money', 'fame', 'Yacht', 'Rolex']
 # we can not only replace specific elements but also add new sequence of lists into the old one
 wish_list[2:6] = [1, 2, 3, 4, 5]
 print(wish_list[:])  # ['house', 'car', 1, 2, 3, 4, 5, 'Yacht', 'Palace', 'Rolex', 'Mercedes']
+
+# similarly, we can replace multiple elements of a list into one single element in place
+wish_list[2:7] = ['money']
+print(wish_list[:]) #['house', 'car', 'money', 'Yacht', 'Palace', 'Rolex', 'Mercedes']
