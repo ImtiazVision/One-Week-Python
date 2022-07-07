@@ -13,4 +13,6 @@ print(wish_list[:])  # ['house', 'car', 1, 2, 3, 4, 5, 'Yacht', 'Palace', 'Rolex
 
 # similarly, we can replace multiple elements of a list into one single element in place
 wish_list[2:7] = ['money']
-print(wish_list[:]) #['house', 'car', 'money', 'Yacht', 'Palace', 'Rolex', 'Mercedes']
+print(wish_list[:]) # ['house', 'car', 'money', 'Yacht', 'Palace', 'Rolex', 'Mercedes']
+
+print('LISTS ARE MUTABLE AND WE CAN ADD MULTIPLE ELEMENTS IN PLACE OF ONE ELEMENT AND VICE VERSA (OTHER WAY AROUND)')
