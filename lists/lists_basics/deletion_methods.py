@@ -18,7 +18,7 @@
 
 # print(language)
 
-# The pop() method removes the last element from a list. 
+# The pop() method removes the last element from a list. pop() is the most common way to remove anything from a list. 
 
 language = ['Python', 'C', 'Java', 'JavaScript', 'C']
 
