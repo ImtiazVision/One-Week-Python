@@ -10,7 +10,7 @@
 
 # The remove(x) method will remove the 'First' element in the list that has a value of x
 
-language = ['Python', 'Java', 'JavaScript', 'C']
+language = ['Python', 'C', 'Java', 'JavaScript', 'C']
 
 print(language)
 
