@@ -5,4 +5,5 @@ total = 0
 for element in list1:
   total = total + element
 
-print(total)
+average = total/ len(list1)
+print(total, average)
