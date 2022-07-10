@@ -2,7 +2,8 @@
 drivers = ["Charles", "Pierre", "Valterri", "Lewis", "George", "Lando"]
 
 # Oh dear, we've misspelled "Valtteri" as "Valterri".  Update the drivers list to include the correct spelling!
-
+drivers[2] = 'Valterri'
+print(drivers)
 
 # Esteban makes it out of the pits and joins the pack just in time.  Add "Esteban" to the end of the drivers list!
 
