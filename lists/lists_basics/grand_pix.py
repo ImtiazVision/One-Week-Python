@@ -3,10 +3,10 @@ drivers = ["Charles", "Pierre", "Valterri", "Lewis", "George", "Lando"]
 
 # Oh dear, we've misspelled "Valtteri" as "Valterri".  Update the drivers list to include the correct spelling!
 drivers[2] = 'Valterri'
-print(drivers)
 
 # Esteban makes it out of the pits and joins the pack just in time.  Add "Esteban" to the end of the drivers list!
-
+drivers.append('Esteban')
+print(drivers)
 
 # What's this? There's another group of drivers that comes out of nowhere to join the race! Add each element from the others list to the end of the drivers list.
 others = ["Blue", "Elton", "Colt"]
