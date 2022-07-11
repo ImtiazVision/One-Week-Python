@@ -19,8 +19,8 @@ drivers.pop()
 drivers.pop(0)
 
 # And again the leader of the pack runs into trouble! He's not out of the race, but he's now moved to last place.  Remove the first driver in the list, store it in variable, and then add it to the end of the list.
-variable = drivers.pop(0)
-drivers.append(variable)
+first_driver = drivers.pop(0)
+drivers.append(first_driver)
 print(drivers)
 
 
