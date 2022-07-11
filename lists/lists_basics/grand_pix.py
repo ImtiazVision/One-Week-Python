@@ -44,3 +44,6 @@ print(podium)
 # 5. Lando
 # 6. Esteban
 # 7. Pierre
+
+for element in range(len(drivers)):
+  print(element, drivers[element])

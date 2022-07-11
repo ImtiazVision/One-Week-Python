@@ -2,9 +2,10 @@
 
 languages = ['Python', 'C', 'Java', 'JavaScript']
 
-# for element in languages:
-#   print(element)
+for element in languages:
+  print(element)
 
+print("*****  While Loop Starts  *****")
 index = 0
 
 while index < len(languages):
