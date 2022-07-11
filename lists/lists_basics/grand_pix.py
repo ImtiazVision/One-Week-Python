@@ -14,10 +14,10 @@ drivers.extend(others)
 
 # Colt looks lost out there! He has a horrible fiery crash.  Remove the last element from the drivers list ("Colt")
 drivers.pop()
-print(drivers)
 
 # Oh dear, there's a huge crash at the front! Remove the first element from the driver's list
-
+del drivers[0]
+print(drivers)
 
 # And again the leader of the pack runs into trouble! He's not out of the race, but he's now moved to last place.  Remove the first driver in the list, store it in variable, and then add it to the end of the list.
 
