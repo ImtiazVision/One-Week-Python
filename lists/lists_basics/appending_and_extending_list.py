@@ -13,5 +13,6 @@ print(nums)
 # list1.append(nums) # appends just add the entire 2nd list to the end of the first list
 # print(list1)
 
-list1.extend(nums) # extend offers iterable and go through each element of the 2nd list that we are extending upon and add elements from the 2nd list to first list one by one
+# extend offers iterable and go through each element of the 2nd list that we are extending upon and add elements from the 2nd list the to first list one by one. It add each element from the 2nd list to the end of the 1st list.
+list1.extend(nums)
 print(list1)
