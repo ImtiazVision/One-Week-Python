@@ -6,10 +6,11 @@ drivers[2] = 'Valterri'
 
 # Esteban makes it out of the pits and joins the pack just in time.  Add "Esteban" to the end of the drivers list!
 drivers.append('Esteban')
-print(drivers)
 
 # What's this? There's another group of drivers that comes out of nowhere to join the race! Add each element from the others list to the end of the drivers list.
 others = ["Blue", "Elton", "Colt"]
+drivers.extend(others)
+print(drivers)
 
 
 # Colt looks lost out there! He has a horrible fiery crash.  Remove the last element from the drivers list ("Colt")
