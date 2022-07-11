@@ -21,11 +21,11 @@ drivers.pop(0)
 # And again the leader of the pack runs into trouble! He's not out of the race, but he's now moved to last place.  Remove the first driver in the list, store it in variable, and then add it to the end of the list.
 first_driver = drivers.pop(0)
 drivers.append(first_driver)
-print(drivers)
 
 
 # My idiotic cat, Blue, is in the middle of the pack.  Delete "Blue" from the drivers list using the remove method!
-
+drivers.remove('Blue')
+print(drivers)
 
 # My dog, Elton, is making a remarkable charge up the leadboard! Remove Elton from his current position in the list and insert him at index 2.
 
