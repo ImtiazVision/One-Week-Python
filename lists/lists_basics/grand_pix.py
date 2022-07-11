@@ -33,7 +33,8 @@ drivers.insert(2, "Elton")
 print(drivers)
 
 # The race is over! It's time for the podium ceremony.  Create a new list called podium that contains the first 3 elements from the drivers list. (use a slice!)
-
+podium = drivers[:3]
+print(podium)
 
 # Loop over the drivers list and print out a leadboard that includes a driver's finishing position and their name, like this:
 # 1. Valtteri
