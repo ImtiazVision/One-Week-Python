@@ -46,4 +46,4 @@ print(podium)
 # 7. Pierre
 
 for element in range(len(drivers)):
-  print(element, drivers[element])
+  print(f"{element + 1}. {drivers[element]}")
