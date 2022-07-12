@@ -45,5 +45,5 @@ print(podium)
 # 6. Esteban
 # 7. Pierre
 
-for element in range(len(drivers)):
-  print(f"{element + 1}. {drivers[element]}")
+for index in range(len(drivers)):
+  print(f"{index + 1}. {drivers[index]}")
