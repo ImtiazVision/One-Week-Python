@@ -25,4 +25,4 @@ print(team[1][1])
 for members in team:
   # print(members)
   for player in members:
-    print(player)
+    print(f'We are accessing {player}')
