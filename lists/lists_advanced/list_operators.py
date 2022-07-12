@@ -12,8 +12,8 @@ print(3 in list1) # True
 
 ice_cream = ['birthday_cake', 'piece_of_cake', 'butter_pecan', 'strawberry_cheesecake']
 
-user_choice = input("What kind of ice cream would you like?")
+user_choice = input("What kind of ice cream would you like? ")
 
 while user_choice.lower() not in ice_cream:
-  user_choice = input("Please choose ice cream from the above menu list. What kind of ice cream would you like?")
+  user_choice = input("Please choose ice cream from the above menu list. What kind of ice cream would you like? ")
 print(f"OK, {user_choice} will be served momentarily...")
