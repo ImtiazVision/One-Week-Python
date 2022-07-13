@@ -30,7 +30,7 @@ print(numbers)  # [8, 5, 4, 4, 3, 1, -2, -4, -9]
 # lists are mutable
 
 nums1 = [1,2,3]
-nums2 = nums1
+nums2 = nums1 # here we are assigning nums1 to nums2 (2 labels for same list)
 # here both 'nums1' and 'nums2' are pointing to the same list/container in memory (think about lists as pill container)
 nums2.append(4)
 print(nums1)
