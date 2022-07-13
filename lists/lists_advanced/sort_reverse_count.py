@@ -20,6 +20,9 @@ print(nums)
 
 numbers = [8, -2, 4, -9, 3, 1, -4, 5, 4]
 
-numbers.sort()
+numbers.sort()  # [-9, -4, -2, 1, 3, 4, 4, 5, 8]
 
 print(numbers)
+
+numbers.sort(reverse=True) 
+print(numbers)  # [8, 5, 4, 4, 3, 1, -2, -4, -9]
