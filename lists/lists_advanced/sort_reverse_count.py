@@ -26,3 +26,11 @@ print(numbers)
 
 numbers.sort(reverse=True) 
 print(numbers)  # [8, 5, 4, 4, 3, 1, -2, -4, -9]
+
+# lists are mutable
+
+nums1 = [1,2,3]
+nums2 = nums1
+# here both 'nums1' and 'nums2' are pointing to the same list/container in memory (think about lists as pill container)
+print(nums1)
+print(nums2)
