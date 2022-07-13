@@ -35,3 +35,5 @@ nums2 = nums1
 nums2.append(4)
 print(nums1)
 print(nums2)
+
+# nums1 and nums2 are not separate instances or list but they point to the same container in memory 
