@@ -5,7 +5,7 @@ language = ['C#', 'C#','C','PHP', 'Python', 'Java', 'JavaScript']
 
 print(language.count('C#'))
 
-# reverse() method
+# reverse() method reverses a list in-place that is it doesn't make a new copy of the list but rather rearrange the list in reverse order in the same container/list/data structure
 
 nums = [1,2,3,4,5,6,7,8]
 
