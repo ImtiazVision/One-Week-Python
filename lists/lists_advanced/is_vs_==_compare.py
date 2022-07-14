@@ -10,3 +10,4 @@ print([3,2,1] is [3,2,1]) # False
 odd = [1,3,5]
 odd1 = odd # both odd1 and odd are referring to the same list in memory container 
 print(odd is odd1) # True 
+print(id(odd), id(odd1))
