@@ -1,6 +1,9 @@
 # We can 'unpack' values from a list into specific variable.
 
 member = ['John', 'Smith', 31]
+# first = member[0]
+# last = member[1]
+# age = member[2]
 
 first, last, age = member
 
