@@ -15,4 +15,9 @@ color = [255,43,19]
 
 # We can use an asterisk (*) to gather any remaining unassigned values into a variable
 
+item = [1, 'Cheese', 'Bagel', 5.99]
 
+quantity, *other, price = item
+
+print(quantity,  price)
+print(*other)
