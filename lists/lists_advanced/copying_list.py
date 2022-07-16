@@ -5,3 +5,4 @@ list2 = list1.copy()
 print(list2)
 # list1 and list2 has different id in the memory (2549609097792 and 2549609441536) and thus it is called a 'shallow copy' 
 print(id(list1), id(list2))
+print(list1 is list2) # we can also compare the type(identity) of both list 
