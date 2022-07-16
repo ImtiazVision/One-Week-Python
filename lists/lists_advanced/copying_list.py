@@ -9,3 +9,6 @@ print(list1 is list2) # we can also compare the type(identity) of both list
 
 # Copying with [:] (slicing)
 # We can also copy lists by creating slices of an entire list. It's not the most readable, but it works!
+
+list1 = [1, 3, 5, 7, 9]
+list2 = list1[:]
