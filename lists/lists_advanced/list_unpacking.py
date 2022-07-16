@@ -12,3 +12,7 @@ first, last, age = member
 print(first, last, age) 
 
 color = [255,43,19]
+
+# We can use an asterisk (*) to gather any remaining unassigned values into a variable
+
+
