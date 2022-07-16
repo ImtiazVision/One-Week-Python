@@ -1,0 +1,1 @@
+# The copy() method returns a shallow copy of a list. Nested objects are not copied. 
