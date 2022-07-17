@@ -12,4 +12,5 @@ print(header)
 while True:
   print('***********************************')
   print("Enter a command. Type 'h' for help:")
+  input('> ')
   # Print todos from the list 
