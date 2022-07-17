@@ -11,3 +11,4 @@ print(header)
 
 while True:
   print('***********************************')
+  # Print todos from the list 
