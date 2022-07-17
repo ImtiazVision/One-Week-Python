@@ -13,4 +13,6 @@ while True:
   print('***********************************')
   print("Enter a command. Type 'h' for help:")
   command = input('> ')
+  if command == 'q':
+    break
   # Print todos from the list 
