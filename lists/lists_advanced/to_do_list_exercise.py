@@ -16,3 +16,4 @@ while True:
   if command == 'q':
     break
   # Print todos from the list 
+print("BYE!")
