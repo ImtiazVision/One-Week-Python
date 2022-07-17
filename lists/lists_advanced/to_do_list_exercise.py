@@ -7,3 +7,7 @@ header = """
                             
 """
 print(header)
+
+
+while True:
+  print('***********************************')
