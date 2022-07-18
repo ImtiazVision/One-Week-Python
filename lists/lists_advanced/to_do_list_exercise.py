@@ -8,7 +8,7 @@ header = """
 """
 print(header)
 
-
+todos = []
 while True:
   print('***********************************')
   print("Enter a command. Type 'h' for help:")
