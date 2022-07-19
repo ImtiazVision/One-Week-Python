@@ -30,4 +30,4 @@ while True:
 if completed:
   print(f"You have completed {len(completed)} todos today: ")
   for todo in completed:
-    print()
+    print(f"* {todo}")
