@@ -18,7 +18,7 @@ while True:
   if command == 'q':
     break
   elif command.isnumeric():
-    num = int(command) 
+    index = int(command) 
     todos.pop(num-1)
   else:
     todos.append(command)
