@@ -10,6 +10,8 @@ print(header)
 
 todos = []
 while True:
+  for todo in todos:
+    print(todo)
   print('***********************************')
   print("Enter a command. Type 'h' for help:")
   command = input('> ')
