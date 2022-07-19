@@ -22,7 +22,8 @@ while True:
     index = int(command) - 1
     if index >= len(command):
       print("There is no todo with this number!!!")
-    todos.pop(index)
+    done_todo = todos.pop(index)
+    completed.append(done_todo)
   else:
     todos.append(command)
   # Print todos from the list 
