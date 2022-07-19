@@ -29,4 +29,5 @@ while True:
   # Print todos from the list 
 if completed:
   print(f"You have completed {len(completed)} todos today: ")
-  for 
+  for todo in completed:
+    print()
