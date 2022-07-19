@@ -18,8 +18,10 @@ while True:
   if command == 'q':
     break
   elif command.isnumeric():
-    index = int(command) 
-    todos.pop(num-1)
+    index = int(command) - 1
+    if index >= len(command):
+      print("There is no todo with this number!!!")
+    todos.pop(index)
   else:
     todos.append(command)
   # Print todos from the list 
