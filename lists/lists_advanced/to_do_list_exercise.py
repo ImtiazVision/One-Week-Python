@@ -19,6 +19,7 @@ while True:
     break
   elif command.isnumeric():
     num = int(command) 
+    todos.pop(num-1)
   else:
     todos.append(command)
   # Print todos from the list 
