@@ -27,4 +27,6 @@ while True:
   else:
     todos.append(command)
   # Print todos from the list 
-print("BYE!")
+if completed:
+  print(f"You have completed {len(completed)} todos today: ")
+  for 
