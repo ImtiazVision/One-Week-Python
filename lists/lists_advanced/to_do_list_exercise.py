@@ -9,6 +9,7 @@ header = """
 print(header)
 
 todos = []
+completed = []
 while True:
   for i in range(len(todos)):
     print(f' {i+1}) {todos[i]}')
