@@ -15,5 +15,7 @@ while True:
   command = input('> ')
   if command == 'q':
     break
+  else:
+    todos.append(command)
   # Print todos from the list 
 print("BYE!")
