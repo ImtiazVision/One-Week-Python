@@ -20,10 +20,11 @@ while True:
     break
   elif command.isnumeric():
     index = int(command) - 1
-    if index >= len(command):
+    if index >= len(todos):
       print("There is no todo with this number!!!")
-    done_todo = todos.pop(index)
-    completed.append(done_todo)
+    else:
+      done_todo = todos.pop(index)
+      completed.append(done_todo)
   else:
     todos.append(command)
   # Print todos from the list 
