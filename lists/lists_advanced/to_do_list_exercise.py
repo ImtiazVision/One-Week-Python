@@ -11,7 +11,7 @@ print(header)
 todos = []
 while True:
   for i in range(len(todos)):
-    print(f' {i+1} {todos[i]}')
+    print(f' {i+1}) {todos[i]}')
   print('***********************************')
   print("Enter a command. Type 'h' for help:")
   command = input('> ')
