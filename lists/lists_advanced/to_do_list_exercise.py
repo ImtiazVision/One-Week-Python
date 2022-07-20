@@ -18,6 +18,8 @@ while True:
   command = input('> ')
   if command == 'q':
     break
+  elif command == 'h':
+    
   elif command.isnumeric():
     index = int(command) - 1
     if index >= len(todos):
