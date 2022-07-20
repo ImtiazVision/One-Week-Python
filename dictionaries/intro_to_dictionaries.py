@@ -1,0 +1,1 @@
+# Dictionaries allow us to store information in key-value pairs. We use dictionaries when order doesn't matter (list is used when order does matter). 
