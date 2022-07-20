@@ -19,7 +19,7 @@ while True:
   if command == 'q':
     break
   elif command == 'h':
-    
+    print('TODO LIST HELP')
   elif command.isnumeric():
     index = int(command) - 1
     if index >= len(todos):
