@@ -1,6 +1,15 @@
 # Lists are ordered collection of data. They can hold any of the data types such as 'int', 'float', 'boolean', 'string' etc. 
 
-# The most important thing to remember is that list is a ordered collection of data. 
+# The most important thing to remember is that list is a ordered collection of data. List has 'index-value pairs'. 
+
+# Index   Value
+#  0      "Monday"
+#  1      "Tuesday"
+#  2      "Wednesday"
+#  3      "Thursday"
+#  4      "Friday"
+#  5      "Saturday"
+#  6      "Sunday" 
 
 # Creating Lists:
 
