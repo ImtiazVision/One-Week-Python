@@ -32,7 +32,7 @@ while True:
       completed.append(done_todo)
   else:
     todos.append(command)
-  # Print todos from the list 
+  # Print todos from the list
 if completed:
   print(f"You have completed {len(completed)} todos today: ")
   for todo in completed:
