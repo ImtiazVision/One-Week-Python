@@ -21,6 +21,7 @@ while True:
   elif command == 'h':
     print('TODO LIST HELP')
     print("Type 'q' to quit")
+    print("To add a todo to the list, type it and hit enter")
   elif command.isnumeric():
     index = int(command) - 1
     if index >= len(todos):
