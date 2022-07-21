@@ -1,0 +1,1 @@
+empty_dictionary = {} # we need curly braces to create a dictionary
