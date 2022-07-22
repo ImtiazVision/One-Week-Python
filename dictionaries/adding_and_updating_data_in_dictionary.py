@@ -7,3 +7,8 @@ movie = {
     "year": 2011,
     "rating": "R"
 }
+
+# to update, we just index the key and set it equal(=) to the updated value
+movie['runtime'] = '4h'
+
+print(movie['runtime'])  # 4h
