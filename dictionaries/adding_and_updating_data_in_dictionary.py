@@ -18,3 +18,9 @@ print(movie['runtime'])  # 4h
 print(movie["imdb"])  # 9.0
 
 # to add, we just add new element by adding new keys and set it equal(=) to its corresponding values 
+
+order = {"quantity": 5, "price": 5.99}
+
+order['shipping'] = 6.50
+
+print(order)  # {'quantity': 5, 'price': 5.99, 'shipping': 6.5}
