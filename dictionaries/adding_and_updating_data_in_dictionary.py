@@ -24,3 +24,5 @@ order = {"quantity": 5, "price": 5.99}
 order['shipping'] = 6.50
 
 print(order)  # {'quantity': 5, 'price': 5.99, 'shipping': 6.5}
+
+# keys has to be unique in a given dictionary and same goes for the values, we can't add/update them by duplication(add/update them using same key-value pair)
