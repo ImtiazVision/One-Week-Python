@@ -17,4 +17,4 @@ print(movie['runtime'])  # 4h
 
 print(movie["imdb"])  # 9.0
 
-# to add, we just add new element by adding new keys and values just like we did when we created the dictionary initially
+# to add, we just add new element by adding new keys and set it equal(=) to its corresponding values 
