@@ -14,3 +14,6 @@ prices = {
   'blackberries': 4.15,
   'basil': 2.99
 }
+
+product = input("What product are you going to purchase today? ")
+
