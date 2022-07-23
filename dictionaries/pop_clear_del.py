@@ -15,3 +15,6 @@ prices = {
     'blackberries': 4.15,
     'basil': 2.99
 }
+expensive_product = prices.pop('strawberries')
+print(prices)
+print(expensive_product)
