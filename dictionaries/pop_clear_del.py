@@ -20,4 +20,4 @@ print(prices)
 print(expensive_product)
 
 
-# popitem() deletes the most recently (the last) added key-value pair. It returns the item as a tuple. 
+# popitem() takes no arguments and deletes the most recently (the last) added key-value pair. It returns the item as a tuple. 
