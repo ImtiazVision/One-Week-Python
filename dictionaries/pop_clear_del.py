@@ -21,3 +21,12 @@ print(expensive_product)
 
 
 # popitem() takes no arguments and deletes the most recently (the last) added key-value pair. It returns the item as a tuple. 
+
+# print(prices)
+prices = {
+    'coconut': 5.11,
+    'orange': 3.99,
+    'blueberries': 2.99,
+    'blackberries': 4.15,
+    'basil': 2.99
+}
