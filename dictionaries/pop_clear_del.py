@@ -44,3 +44,6 @@ last_added_product = prices.popitem()
 print(last_added_product)
 
 print(prices)
+
+
+# clear() deletes all items from a dictionary. It returns "None".
