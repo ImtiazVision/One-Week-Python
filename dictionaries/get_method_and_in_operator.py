@@ -15,11 +15,18 @@ prices = {
   'basil': 2.99
 }
 
+# product = input("What product are you going to purchase today? ")
+# if product in prices:
+#   price = prices[product]
+#   print(f"{product} is ${price}")
+# else:
+#   print("This product is not available!!! ")
+  
+# dict.get() method will look for a given key in a dictionary. If the key exists, it will return the corresponding value. Otherwise it returns None. 
+
 product = input("What product are you going to purchase today? ")
-if product in prices:
-  price = prices[product]
+price = prices.get(product)
+if price:
   print(f"{product} is ${price}")
 else:
   print("This product is not available!!! ")
-  
-# dict.get() method will look for a given key in a dictionary. If the key exists, it will return the corresponding value. Otherwise it returns None. 
