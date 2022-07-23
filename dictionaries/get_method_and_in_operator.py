@@ -21,3 +21,5 @@ if product in prices:
   print(f"{product} is ${price}")
 else:
   print("This product is not available!!! ")
+  
+# dict.get() method will look for a given key in a dictionary. If the key exists, it will return the corresponding value. Otherwise it returns None. 
