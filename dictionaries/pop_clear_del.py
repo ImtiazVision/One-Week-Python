@@ -31,5 +31,14 @@ prices = {
     'basil': 2.99
 }
 
-last_added_product = prices.popitem()
-print(last_added_product)
+# last_added_product = prices.popitem()
+# print(last_added_product)
+# print(prices)
+
+# updating exiting products price
+prices["orange"] = 5.11 
+# adding one more product
+prices['banana'] = 5.00
+
+
+print(prices)
