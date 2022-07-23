@@ -22,7 +22,7 @@ prices = {
 # else:
 #   print("This product is not available!!! ")
   
-# dict.get() method will look for a given key in a dictionary. If the key exists, it will return the corresponding value. Otherwise it returns None. 
+# dict.get() method will look for a given key in a dictionary. If the key exists, it will return the corresponding value. Otherwise it returns None. If we want a value for a key that may or may not exist in a dictionary, we ust get() method. 
 
 product = input("What product are you going to purchase today? ")
 price = prices.get(product)
