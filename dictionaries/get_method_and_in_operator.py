@@ -19,3 +19,5 @@ product = input("What product are you going to purchase today? ")
 if product in prices:
   price = prices[product]
   print(f"{product} is ${price}")
+else:
+  print("This product is not available!!! ")
