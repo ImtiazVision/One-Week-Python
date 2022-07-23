@@ -7,3 +7,11 @@ print(phone_book)
 cersei = phone_book.pop("Cersei")
 print(phone_book)
 print(cersei)
+prices = {
+    'coconut': 5.11,
+    'strawberries': 4.99,
+    'orange': 3.99,
+    'blueberries': 2.99,
+    'blackberries': 4.15,
+    'basil': 2.99
+}
