@@ -39,6 +39,8 @@ prices = {
 prices["orange"] = 5.11 
 # adding one more product
 prices['banana'] = 5.00
-
+# popitem() will remove the last added product from the dictionary and if we print it, it will give us the deleted last item and its value as a form of tuple i.e. ('banana', 5.0)
+last_added_product = prices.popitem()
+print(last_added_product)
 
 print(prices)
