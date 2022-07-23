@@ -18,3 +18,6 @@ prices = {
 expensive_product = prices.pop('strawberries')
 print(prices)
 print(expensive_product)
+
+
+# popitem() deletes the most recently (the last) added key-value pair. It returns the item as a tuple. 
