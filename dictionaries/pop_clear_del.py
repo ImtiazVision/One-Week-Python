@@ -30,3 +30,6 @@ prices = {
     'blackberries': 4.15,
     'basil': 2.99
 }
+
+last_added_product = prices.popitem()
+print(last_added_product)
