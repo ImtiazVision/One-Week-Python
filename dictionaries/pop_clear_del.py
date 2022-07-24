@@ -45,5 +45,27 @@ print(last_added_product)
 
 print(prices)
 
+# 'del' statement removes items from a dictionary. However, it is not a method!
+prices = {
+    'coconut': 5.11,
+    'orange': 3.99,
+    'blueberries': 2.99,
+    'blackberries': 4.15,
+    'basil': 2.99
+}
+
+del prices['orange']
+print(prices)
 
 # clear() deletes all items from a dictionary. It returns "None".
+
+prices = {
+    'coconut': 5.11,
+    'blueberries': 2.99,
+    'blackberries': 4.15,
+    'basil': 2.99
+}
+# clear() will erase all the elements from a dictionary but keeps the empty dictionary 
+prices.clear()
+
+print(prices)
