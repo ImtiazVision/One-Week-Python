@@ -41,5 +41,14 @@ prices = {
 #   print(item)
 
 # dictionary unpacking 
-for key, value in prices.items():
-  print(key,value)
+# for key, value in prices.items():
+#   print(key,value)
+
+# to find out max price
+max_price = 0
+most_costly_item = ''
+for item, price in prices.items():
+  if price > max_price:
+    max_price = price
+    most_costly_item = item
+print(f"Most costly item was ${max_price} by {most_costly_item}")
