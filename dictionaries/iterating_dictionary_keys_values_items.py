@@ -12,4 +12,7 @@ prices = {
 # print(items_price)
 # output: dict_items([('coconut', 5.11), ('strawberries', 4.99), ('orange', 3.99), ('blueberries', 2.99), ('blackberries', 4.15), ('basil', 2.99)])
 
-# Similarly, we can use .key() to get only the keys and .value() to get only the values respectively
+# Similarly, we can use .keys() to get only the keys and .values() to get only the values respectively
+
+dictionary_keys = prices.keys()
+print(dictionary_keys)
