@@ -26,5 +26,7 @@ prices = {
 # for item in prices.keys():
 #   print(item)
 # here, 'cost' is just a variable name as it could be anything but we made sure that the variable name does makes sense according to our context 
-for cost in prices.values():
-  print(cost)
+# for cost in prices.values():
+#   print(cost)
+
+# import __hello__ # fun fact, this will print 'Hello world!' on the console 
