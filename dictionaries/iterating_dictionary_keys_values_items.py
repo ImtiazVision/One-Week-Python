@@ -16,3 +16,7 @@ prices = {
 
 dictionary_keys = prices.keys()
 print(dictionary_keys)
+# dict_keys(['coconut', 'strawberries', 'orange', 'blueberries', 'blackberries', 'basil'])
+dictionary_values = prices.values()
+print(dictionary_values)
+# dict_values([5.11, 4.99, 3.99, 2.99, 4.15, 2.99])
