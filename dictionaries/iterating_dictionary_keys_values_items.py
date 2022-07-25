@@ -23,5 +23,5 @@ prices = {
 
 # Similarly, we can iterate over the dictionary
 
-for price in prices.keys():
-  
+for item in prices.keys():
+  print(item)
