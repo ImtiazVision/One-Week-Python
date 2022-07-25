@@ -44,11 +44,16 @@ prices = {
 # for key, value in prices.items():
 #   print(key,value)
 
-# to find out max price
-max_price = 0
-most_costly_item = ''
-for item, price in prices.items():
-  if price > max_price:
-    max_price = price
-    most_costly_item = item
-print(f"Most costly item was ${max_price} by {most_costly_item}")
+# to find out max price and its corresponding item
+# max_price = 0
+# most_costly_item = ''
+# for item, price in prices.items():
+#   if price > max_price:
+#     max_price = price
+#     most_costly_item = item
+# print(f"Most costly item was ${max_price} by {most_costly_item}")
+
+# we don't have to write .keys() when iterating over a dictionary because default behavior of a for loop is to iterate over the keys of  a dictionary 
+
+for item in prices:
+  print(item)
