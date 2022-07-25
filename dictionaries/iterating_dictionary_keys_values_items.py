@@ -29,7 +29,10 @@ prices = {
 # for cost in prices.values():
 #   print(cost)
 
-total = 0
-for price in prices.values():
-  total = total + price
-print(total/len(prices))
+# total = 0
+# for price in prices.values():
+#   total = total + price
+# print(total/len(prices))
+
+for key in prices.keys():
+  print(key, prices[key])
