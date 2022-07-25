@@ -29,4 +29,7 @@ prices = {
 # for cost in prices.values():
 #   print(cost)
 
-# import __hello__ # fun fact, this will print 'Hello world!' on the console 
+total = 0
+for price in prices.values():
+  total = total + price
+print(total/len(prices))
