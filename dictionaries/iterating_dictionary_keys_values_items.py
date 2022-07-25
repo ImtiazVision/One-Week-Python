@@ -34,5 +34,8 @@ prices = {
 #   total = total + price
 # print(total/len(prices))
 
-for key in prices.keys():
-  print(key, prices[key])
+# for key in prices.keys():
+#   print(key, prices[key])
+
+for item in prices.items():
+  print(item)  
