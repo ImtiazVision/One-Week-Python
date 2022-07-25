@@ -1,2 +1,2 @@
-print(last_added_product)
-# print(prices)
+for key, value in prices.items():
+  print(key,value)

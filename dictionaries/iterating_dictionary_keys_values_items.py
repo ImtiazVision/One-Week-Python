@@ -37,5 +37,9 @@ prices = {
 # for key in prices.keys():
 #   print(key, prices[key])
 
-for item in prices.items():
-  print(item)  
+# for item in prices.items():
+#   print(item)
+
+# dictionary unpacking 
+for key, value in prices.items():
+  print(key,value)
