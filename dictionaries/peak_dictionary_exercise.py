@@ -17,7 +17,7 @@ peak = {
 
 # Add a "Verizon" to the "cell_reception" dict and set it equal to "good"
 
-# You just summitted the peak! Add your name to the "summit_log" list
+# You just submitted the peak! Add your name to the "summit_log" list
 
 
 # Let's rename "height" to "elevation":
