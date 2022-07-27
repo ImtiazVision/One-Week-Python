@@ -11,7 +11,6 @@ peak = {
 # Without touching the original variable declaration (above)...
 # Add a "range" key to peak and set it equal to "Elk Mountains"
 peak['range'] = 'Elk Mountains'
-print(peak)
 # Add a "first_climbed" key to peak and set it equal to 1873
 
 # Whoops, there's a mistake with the peak "height".  Update it to 14265
@@ -37,3 +36,5 @@ print(peak)
 
 
 # A huge earthquake/meteor/forestfire/tsunami has destroyed the peak.  Please empty out the entire dictionary.
+
+print(peak)
