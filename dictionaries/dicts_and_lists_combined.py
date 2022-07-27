@@ -8,3 +8,8 @@ prices = {
 }
 
 # nested dictionary 
+produce = {
+  'mango': {
+    'price': 2.99
+  }
+}
