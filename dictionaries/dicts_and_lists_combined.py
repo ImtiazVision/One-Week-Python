@@ -13,6 +13,12 @@ produce = {
     'price': 2.99,
     'quantity': 44,
     'organic': True,
-    'producer': 'John Bros LLC'
+    'producer': 'Parley Farm '
+  },
+    'basil': {
+    'price': 2.99,
+    'quantity': 21,
+    'organic': False,
+    'producer': 'Mike Temper Farm'
   }
 }
