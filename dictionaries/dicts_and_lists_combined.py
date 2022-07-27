@@ -26,16 +26,25 @@ produce = {
 # print(produce['basil'])
 # print(produce['basil']['quantity'])
 
-# dictionary with lists
+# dictionary of lists are pretty common
 test_scores = {
   "Amir": [89,99,80],
   "Sabin": [78, 89, 94]
 
 }
 
+# lists of dictionary are also pretty common 
 waitlist = [
   {
     'email': 'john@email.com',
-    'location': 'North America'
+    'location': 'North America',
+    'first_name': 'John',
+    'last_name': 'Wolf'
+  },
+  {
+      'email': 'Juan@email.com',
+      'location': 'South America',
+      'first_name': 'Juan',
+      'last_name': 'Asker'
   }
 ]
