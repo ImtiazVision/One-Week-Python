@@ -23,4 +23,5 @@ produce = {
   }
 }
 
-print(produce['basil'])
+# print(produce['basil'])
+# print(produce['basil']['quantity'])
