@@ -1,2 +1,2 @@
-for key, value in prices.items():
-  print(key,value)
+third_phone_book = { **phone_book, **second_phone_book}
+print(third_phone_book)
