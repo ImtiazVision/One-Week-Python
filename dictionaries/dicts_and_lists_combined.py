@@ -27,7 +27,7 @@ produce = {
 # print(produce['basil']['quantity'])
 
 test_scores = {
-  "Amir": 89,
-  "Sabin": 78,
-  
+  "Amir": [89,99,80],
+  "Sabin": [78, 89, 94]
+
 }
