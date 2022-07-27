@@ -12,5 +12,8 @@ second_phone_book = {"Cat_woman": 67423, "Jaime": 237734, "Godzilla": 37623}
 
 # We can use two stars ** to combine multiple dictionaries into a new resulting dictionary known as dictionary unpacking. 
 
-third_phone_book = { **phone_book, **second_phone_book}
-print(third_phone_book)
+# third_phone_book = { **phone_book, **second_phone_book}
+# print(third_phone_book)
+
+# 'dict union'. Python 3.9 added the dict union operator (|). It will return a new dictionary containing the items from the left and the right dictionaries. In the case of duplicated keys, the right side 'wins' i.e. the key of the right hand side dictionary will take precedence. 
+
