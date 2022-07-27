@@ -10,7 +10,7 @@ second_phone_book = {"Cat_woman": 67423, "Jaime": 237734, "Godzilla": 37623}
 # phone_book.update(second_phone_book)
 # print(phone_book)
 
-# We can use two stars ** to combine multiple dictionaries into a new resulting dictionary. 
+# We can use two stars ** to combine multiple dictionaries into a new resulting dictionary known as dictionary unpacking. 
 
 third_phone_book = { **phone_book, **second_phone_book}
 print(third_phone_book)
