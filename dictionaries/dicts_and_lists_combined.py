@@ -25,3 +25,9 @@ produce = {
 
 # print(produce['basil'])
 # print(produce['basil']['quantity'])
+
+test_scores = {
+  "Amir": 89,
+  "Sabin": 78,
+  
+}
