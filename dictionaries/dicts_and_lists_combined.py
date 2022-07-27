@@ -10,6 +10,9 @@ prices = {
 # nested dictionary 
 produce = {
   'mango': {
-    'price': 2.99
+    'price': 2.99,
+    'quantity': 44,
+    'organic': True,
+    'producer': 'John Bros LLC'
   }
 }
