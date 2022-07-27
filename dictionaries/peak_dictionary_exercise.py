@@ -10,7 +10,7 @@ peak = {
 }
 # Without touching the original variable declaration (above)...
 # Add a "range" key to peak and set it equal to "Elk Mountains"
-peak['range'] = 'Elk Mountain'
+peak['range'] = 'Elk Mountains'
 print(peak)
 # Add a "first_climbed" key to peak and set it equal to 1873
 
