@@ -26,8 +26,16 @@ produce = {
 # print(produce['basil'])
 # print(produce['basil']['quantity'])
 
+# dictionary with lists
 test_scores = {
   "Amir": [89,99,80],
   "Sabin": [78, 89, 94]
 
 }
+
+waitlist = [
+  {
+    'email': 'john@email.com',
+    'location': 'North America'
+  }
+]
