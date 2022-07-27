@@ -17,3 +17,7 @@ second_phone_book = {"Cat_woman": 67423, "Jaime": 237734, "Godzilla": 37623}
 
 # 'dict union'. Python 3.9 added the dict union operator (|). It will return a new dictionary containing the items from the left and the right dictionaries. In the case of duplicated keys, the right side 'wins' i.e. the key of the right hand side dictionary will take precedence. 
 
+dict1 = {'a':1, 'b':2, 'c':5}
+dict2 = {'c':3, 'd':4} # since dict2 is on the right side, it's value 'c': 3 took precedence over 'c':5 of the dict1 
+dict3 = dict1 | dict2
+print(dict3)
