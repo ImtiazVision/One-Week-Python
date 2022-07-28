@@ -10,3 +10,9 @@ print(len(odd))
 languages = {'Python', "Java", 'JavaScript'}
 languages.remove('Java')
 print(languages)
+
+# discard() will remove element just like 'remove()' but won't throw error for missing value (if the value don't exists in a set)
+odd = {9,11,13,15}
+odd.discard(1)
+odd.discard(15)
+print(odd)
