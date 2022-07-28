@@ -2,3 +2,11 @@
 
 # Create a Tuple
 # To define a tuple, we use parenthesis on each side, followed by commas to split our values within.
+
+dishes = ('burrito', 'taco', 'quesadilla', 'fajita')
+
+# Empty Tuple
+
+empty_tuple = ()
+empty_tuple = tuple()
+
