@@ -5,4 +5,9 @@
 # - Check to see if an element is in a set
 # - Use set operators: union, intersection etc.
 
+# Creating Sets: we use curly braces {} and separate the elements by a coma (,)
+
+odds = {1, 3, 5, 7}
+
+
 
