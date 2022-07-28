@@ -22,10 +22,10 @@ peak["summit_log"].append("Imtiaz")
 
 # Let's rename "height" to "elevation":
 # Remove "height" from the dict and store the result in a variable.
-
+elevation1 = peak.pop('height')
 
 # Use the value for "height" and store it in the dict under they key "elevation"
-
+peak['elevation'] = elevation1
 
 # Loop over the values in the dictionary and print them all out.  Don't ask why, just do it :)
 
