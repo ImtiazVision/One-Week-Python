@@ -28,7 +28,8 @@ elevation1 = peak.pop('height')
 peak['elevation'] = elevation1
 
 # Loop over the values in the dictionary and print them all out.  Don't ask why, just do it :)
-
+for value in peak.values():
+  print(value)
 
 # Loop over the keys AND values in the dictionary and print them all out in the following format:
 # key -> value
