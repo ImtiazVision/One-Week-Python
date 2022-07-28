@@ -9,5 +9,10 @@
 
 odds = {1, 3, 5, 7}
 
+# To create an Empty set
+
+empty_set = set()
+print(empty_set)
+
 
 
