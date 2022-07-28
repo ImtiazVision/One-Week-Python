@@ -16,7 +16,7 @@ peak['first_climbed'] = 1873
 # Whoops, there's a mistake with the peak "height".  Update it to 14265
 peak['height'] = 14265
 # Add a "Verizon" to the "cell_reception" dict and set it equal to "good"
-peak["cell_reception"]['verizon']= 'good'
+peak["cell_reception"]['Verizon']= 'good'
 # You just submitted the peak! Add your name to the "summit_log" list
 
 
