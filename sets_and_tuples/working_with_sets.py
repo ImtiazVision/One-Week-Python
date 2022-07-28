@@ -16,3 +16,8 @@ odd = {9,11,13,15}
 odd.discard(1)
 odd.discard(15)
 print(odd)
+
+# clear() will completely empties out a set
+languages = {'Python', "Java", 'JavaScript'}
+languages.clear()
+print(languages)
