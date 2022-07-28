@@ -5,4 +5,5 @@
 some_dict = {1:2, 2:3}
 print(some_dict.items())  # dict_items([(1, 2), (2, 3)])
   # - They can be used as keys in a dictionary
-  
+map1 = {(1,2): 'home'}
+print(map1)  
