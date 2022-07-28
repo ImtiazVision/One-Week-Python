@@ -13,3 +13,8 @@ print(dishes.count('taco'))
 # we can use 'in' operator to see if an element exists in a tuple and it will either give 'True' or 'False' value
 
 print('nachos' in dishes)  # output: False
+
+# we can iterate over a tuple using 'for' loop
+
+for item in dishes:
+  print(item)
