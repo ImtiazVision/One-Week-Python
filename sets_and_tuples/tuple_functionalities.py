@@ -1,7 +1,7 @@
 # To access elements of a tuple, we use index of that element 
 dishes = ('burrito', 'taco', 'quesadilla', 'fajita')
 print(dishes[2])
-# we can also use .index() method to ask for index of an element by providing its name inside the index method
+# we can also use .index('value') method to ask for index of an element by providing the elements value inside the index method
 print(dishes.index('fajita'))
 
 # Slicing of tuple
