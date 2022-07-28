@@ -1,2 +1,1 @@
-
-print(set())
+print(1 in odd)
