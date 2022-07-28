@@ -10,3 +10,7 @@ dishes = ('burrito', 'taco', 'quesadilla', 'fajita')
 empty_tuple = ()
 empty_tuple = tuple()
 
+# 1 item tuple 
+
+single_tuple = 'one'
+single_tuple = ('first',)
