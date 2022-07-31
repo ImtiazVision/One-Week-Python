@@ -8,5 +8,7 @@ data = {'R', 'SQL', 'Python'}
 # Intersection of web_dev & data
 print(web_dev & data)
 
+# Union (left | right): returns new set with members from left and right. Union is represented by a pipe (|) character.
+
 
 # Difference (left - right): returns new set with members from left 'not' in right (anything from left set that is not present in right set)
