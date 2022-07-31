@@ -2,4 +2,7 @@
 web_dev = {'SQL', 'css', 'html', 'JavaScript'}
 print(web_dev)
 
+data = {'R', 'SQL', 'Python'}
+print(data)
+
 # Difference (left - right): returns new set with members from left 'not' in right (anything from left set that is not present in right set)
