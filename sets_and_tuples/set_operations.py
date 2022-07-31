@@ -19,6 +19,7 @@ print(web_dev - data)  # output : {'css', 'html', 'JavaScript'}
 print(data - web_dev)  # output : {'R'}
 
 # Purpose of using sets:
+# Sets are unordered data with no duplicates
 
   # - Sets make it very easy/fast to check if a value exists in a collection
   # - Sets are an easy way to remove duplicates from a collection
