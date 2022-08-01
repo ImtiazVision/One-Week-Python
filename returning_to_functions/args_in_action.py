@@ -1,4 +1,4 @@
 def count_stuff(*args):
-  print(args)
+  print(f"{len(args)}")
   
 count_stuff(1,2,3,4,5)
