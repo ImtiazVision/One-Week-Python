@@ -11,6 +11,7 @@ def average(*args): # gather all remaining arguments into a tuple
   total = 0
   for arg in args:
     total += arg # total = total + arg
+  print (total/len(args))
   return total/len(args)
 
 average(1,3,5)
