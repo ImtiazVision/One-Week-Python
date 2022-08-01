@@ -9,5 +9,6 @@ print(max(1, 3, 5, 9, 2, 4, 6, 7, 8, 10, -111, -94)) # output: 10
 
 def average(*args):
   total = 0
-
-
+  for arg in args:
+    total += arg
+  
