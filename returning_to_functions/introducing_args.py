@@ -11,4 +11,5 @@ def average(*args):
   total = 0
   for arg in args:
     total += arg # total = total + arg
+  return total/len(args)
   
