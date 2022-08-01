@@ -12,4 +12,9 @@ def add(*nums):
 
 add(2,3,5)
 
-
+def exception (first, second, *others):
+  print(f"first is {first}")
+  print(f"second is {second}")
+  print(f"others are{others}")
+  
+exception(True, 'string', 2,3,5)
