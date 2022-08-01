@@ -7,5 +7,7 @@ print(max(1, 3, 5, 9, 2, 4, 6, 7, 8, 10, -111, -94)) # output: 10
 
 # we use '*args' wildcard in front of a parameter to have infinite number of arguments when we don't know how many arguments we are providing at the time of writing a function
 
+def average(*args):
+  
 
 
