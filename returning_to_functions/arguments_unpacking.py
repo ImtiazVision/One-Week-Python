@@ -1,6 +1,7 @@
 # Argument Unpacking: turning sequences into separate args. 
 
 def average(*args):
+  print(args)
   total = 0
   for arg in args:
     total += arg
