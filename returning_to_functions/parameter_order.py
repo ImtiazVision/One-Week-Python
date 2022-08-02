@@ -9,4 +9,4 @@ def display_info(person, *args, status="married"):
   print(f"status is: {status}")
   print(f"args are : {args}")
 
-display_info('Jon')
+display_info('Jon', True, False, 2,8,10)
