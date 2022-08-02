@@ -3,8 +3,9 @@
 # this is the order which parameter follows
 # (parameters, *args, default parameters, **kwargs)
 
-def display_info(person, status="married"):
+def display_info(person, *args, status="married"):
   print(f"person is: {person}")
   print(f"status is: {status}")
+  print(f"args are : {args}")
 
 display_info('Jon')
