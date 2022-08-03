@@ -30,7 +30,7 @@ def count_fails(*scores):
       count += 1
   print(count)
   return count 
-count_fails(1,3,5, 60)
+count_fails(45,56,90,60,35,20)
 # ============== PART 3 ==============
 # Write a function called get_top_students that helps teachers find their A-grade students!
 # It should accept any number of student=score keyword arguments like colt=78 or elton=98
