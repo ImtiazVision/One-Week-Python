@@ -5,7 +5,7 @@
 
 #  contains_pickle("red", 45, "pickle", [])  --> True
 #  contains_pickle(1,2, "blue") ---------------> False
-from curses.panel import top_panel
+
 
 
 def contains_pickle(*args):
@@ -46,5 +46,10 @@ count_fails(45,56,90,60,35,20)
 def get_top_students(**kwargs):
   top_panel_students = []
   for student, score in kwargs.items():
-    
+    if score >= 90:
+      top_panel_students.append(student)
+  print(top_panel_students)
+  return top_panel_students
+
+get_top_students(John=90, Sam = 95, Tom=45, Racy=50, Mike=97, Miss=89, Samuel=98)
 
