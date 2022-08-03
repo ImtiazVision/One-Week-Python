@@ -19,6 +19,9 @@
 # TypeError
 # TypeError occurs when we try to do any operations that are not allowed or incompatible between 2 different data types. For example, if we try to add an int to a string.
 
-print(1 + 'one')  # TypeError: unsupported operand type(s) for +: 'int' and 'str'
+# print(1 + 'one')  # TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# ValueError
+# ValueError raised when an operation or function receives an argument that has the right type but an inappropriate value. 
 
 
