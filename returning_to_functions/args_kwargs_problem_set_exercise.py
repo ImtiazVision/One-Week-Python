@@ -23,7 +23,14 @@ contains_pickle(3, 3, 5, 'pickle')
 # count_fails(85,78,91) ----------> 0
 # count_fails(50,41,47,74,76,81) -> 3
 
-
+def count_fails(*scores):
+  count = 0
+  for score in scores:
+    if score <= 50:
+      count += 1
+  print(count)
+  return count 
+count_fails(1,3,5, 60)
 # ============== PART 3 ==============
 # Write a function called get_top_students that helps teachers find their A-grade students!
 # It should accept any number of student=score keyword arguments like colt=78 or elton=98
