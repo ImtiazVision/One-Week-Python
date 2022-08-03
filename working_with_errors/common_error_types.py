@@ -24,5 +24,13 @@
 # ValueError
 # ValueError raised when an operation or function receives an argument that has the right type but an inappropriate value. 
 
-print(int('1')) # this works 
-print(int('a'))  # ValueError: invalid literal for int() with base 10: 'a'
+# print(int('1')) # this works 
+# print(int('a'))  # ValueError: invalid literal for int() with base 10: 'a'
+
+
+# KeyError
+# KeyError occurs when we try to access a key in a dictionary that is not there. 
+
+dictionary = {'first_key': 11}
+print(dictionary['first_key']) # this works because the key exists
+print(dictionary['one'])  # KeyError: 'one'
