@@ -24,4 +24,5 @@
 # ValueError
 # ValueError raised when an operation or function receives an argument that has the right type but an inappropriate value. 
 
-
+print(int('1')) # this works 
+print(int('a'))  # ValueError: invalid literal for int() with base 10: 'a'
