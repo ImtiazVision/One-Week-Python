@@ -13,7 +13,7 @@ def contains_pickle(*args):
     return 'pickle' in args
 
 
-contains_pickle(3, 3, 5, )
+contains_pickle(3, 3, 5, 'pickle')
 # ============== PART 2 ==============
 # Write a function called count_fails that counts up the number of failing test scores it is passes
 # It should accept any number of arguments
