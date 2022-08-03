@@ -10,6 +10,8 @@
 # print(asdf)  # NameError: name 'asdf' is not defined
 
 # IndexError
-# IndexError occurs when we try to access an index that doesn't exists.
+# IndexError occurs when we try to access an index that doesn't exists be it a string ' ' or tuple ()
 
 # print('hello'[5])  # IndexError: string index out of range
+
+print((1, 2, 3)[3])  # IndexError: tuple index out of range
