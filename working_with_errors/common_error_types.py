@@ -14,4 +14,9 @@
 
 # print('hello'[5])  # IndexError: string index out of range
 
-print((1, 2, 3)[3])  # IndexError: tuple index out of range
+# print((1, 2, 3)[3])  # IndexError: tuple index out of range
+
+# TypeError
+# TypeError occurs when we try to do any operations that are not allowed or incompatible between 2 different data types.
+
+
