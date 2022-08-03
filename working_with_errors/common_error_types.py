@@ -33,4 +33,5 @@
 
 dictionary = {'first_key': 11}
 print(dictionary['first_key']) # this works because the key exists
-print(dictionary['one'])  # KeyError: 'one'
+print(dictionary.get('first_key'))  # this works because the key exists
+# print(dictionary['one'])  # KeyError: 'one'
