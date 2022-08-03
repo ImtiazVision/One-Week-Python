@@ -6,12 +6,14 @@
 #  contains_pickle("red", 45, "pickle", [])  --> True
 #  contains_pickle(1,2, "blue") ---------------> False
 def contains_pickle(*args):
-  # if 'pickle' in args:
-  #   return True
-  # return False
-  return 'pickle' in args
-  
+    # if 'pickle' in args:
+    #   return True
+    # return False
+    print( 'pickle' in args)
+    return 'pickle' in args
 
+
+contains_pickle(3, 3, 5, )
 # ============== PART 2 ==============
 # Write a function called count_fails that counts up the number of failing test scores it is passes
 # It should accept any number of arguments
@@ -30,3 +32,6 @@ def contains_pickle(*args):
 # get_top_students(tim=91, stacy=83, carlos=97, jim=69) -> ['tim', 'carlos']
 # get_top_students(colt=61, elton=76) -------------------> []
 # get_top_students(kitty=80, blue=95, toad=91)-----------> ['blue', 'toad']
+
+
+
