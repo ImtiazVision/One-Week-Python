@@ -6,9 +6,14 @@
 
 # print("Goodbye")
 
+from curses.ascii import isalpha
+
+
 def get_user_name():
   input1 = input('please enter your name: ')
   print(input1)
+  if not input1.isalpha():
+    raise ValueError('please enter alpha characters only')
   return input1
 
 def register_user():
