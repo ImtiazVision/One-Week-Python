@@ -6,6 +6,7 @@
 # except:
 #   <code that runs if error raised>
 
+# Usually, it's better to except a specific exception and handle it, rather than handling any possible exception that could occur. 
 try:
   num = int(input('Please enter a number: '))
 except ValueError:
