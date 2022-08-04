@@ -33,3 +33,5 @@ except ValueError:
   print("That's not an int!")
 except ZeroDivisionError:
   print("Can't divide by zero!")
+except EOFError:
+  print("YOU DIDN'T ENTER ANYTHING!")
