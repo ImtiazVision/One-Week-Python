@@ -26,4 +26,10 @@ except ValueError: # here, we are saying only handle ValueError
   print('Oh no, that is not a number!')
 
 # Multiple Excepts
-
+try:
+  num2 = int(input("Enter an integer: "))
+  print(10/num2)
+except ValueError:
+  print("That's not an int!")
+except ZeroDivisionError:
+  print("Can't divide by zero!")
