@@ -6,3 +6,7 @@
 # except:
 #   <code that runs if error raised>
 
+try:
+  num = int(input('Please enter a number: '))
+except ValueError:
+  print('Oh no, that is not a number!')
