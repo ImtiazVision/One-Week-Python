@@ -35,3 +35,4 @@ except ZeroDivisionError:
   print("Can't divide by zero!")
 except EOFError:
   print("YOU DIDN'T ENTER ANYTHING!")
+  num2 = 0
