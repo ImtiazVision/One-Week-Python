@@ -6,14 +6,8 @@
 # except:
 #   <code that runs if error raised>
 
-# Usually, it's better to except a specific exception and handle it, rather than handling any possible exception that could occur. 
-try:
-  num = int(input('Please enter a number: '))
-except ValueError:
-  print('Oh no, that is not a number!')
 
-
-# another example of try and except
+# example of try and except
 
 # we use 'try' when we know an error might or might not happen.
 try:
@@ -23,3 +17,11 @@ except:
   num1 = 5
 
 print(f"You have entered {num1}")
+
+
+# Usually, it's better to except a specific exception and handle it, rather than handling any possible exception that could occur. 
+try:
+  num = int(input('Please enter a number: '))
+except ValueError:
+  print('Oh no, that is not a number!')
+
