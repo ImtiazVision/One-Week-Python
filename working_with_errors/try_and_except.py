@@ -25,3 +25,5 @@ try:
 except ValueError: # here, we are saying only handle ValueError
   print('Oh no, that is not a number!')
 
+# Multiple Excepts
+
