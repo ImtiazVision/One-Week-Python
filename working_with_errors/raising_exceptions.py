@@ -5,3 +5,8 @@
 
 
 # print("Goodbye")
+
+def get_user_name():
+  input1 = input('please enter your name: ')
+  print(input1)
+  return input1
