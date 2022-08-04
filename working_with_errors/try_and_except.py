@@ -11,3 +11,10 @@ try:
   num = int(input('Please enter a number: '))
 except ValueError:
   print('Oh no, that is not a number!')
+
+
+# another example of try and except
+
+# we use 'try' when we know an error might or might not happen.
+try:
+  num1 = int(input('Enter a number: '))
