@@ -18,3 +18,8 @@ except ValueError:
 # we use 'try' when we know an error might or might not happen.
 try:
   num1 = int(input('Enter a number: '))
+except:
+  print('You entered something that is not a number, we have a default value for all non-number that is: 5')
+  num1 = 5
+
+print(f"You have entered {num1}")
