@@ -11,5 +11,9 @@
 
 # import random
 # print(random.randint(1,5))
-from random import randint
-print(randint(1,8))
+# from random import randint
+# print(randint(1,8))
+
+# importing calender module
+import calendar
+print(calendar.isleap(2022))
