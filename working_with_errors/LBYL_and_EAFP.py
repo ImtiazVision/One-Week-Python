@@ -4,7 +4,10 @@
 num = input("Enter a number: ")
 # 'Look': Check to see if 'num' is numeric
 if num.isnumeric():
-  
+# 'Leap': Convert 'num' to int once we know it's safe
+  num = int(num)
+else:
+  num = 10
 
 
 # EAFP: Easier to ask forgiveness than permission
