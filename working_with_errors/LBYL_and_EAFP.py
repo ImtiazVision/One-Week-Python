@@ -13,3 +13,10 @@ else:
 # EAFP: Easier to ask forgiveness than permission
 # "Assume things exist or will work, and catch exceptions if you are wrong"
 # It is a coding style characterized by lots of try/except blocks
+# EAFP is more pythonic way of doing things
+# Assume it will work: Try converting year to an integer
+try:
+  year = int(input('Enter a year'))
+# Catch exception if we are wrong! This code runs if year can't be cast to an int
+except ValueError:
+  year = 2022  
