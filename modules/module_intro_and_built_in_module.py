@@ -18,3 +18,6 @@
 import calendar
 print(calendar.isleap(2024))
 print(calendar.weekday(2010,4,22))
+
+import math 
+print(math.pi)
