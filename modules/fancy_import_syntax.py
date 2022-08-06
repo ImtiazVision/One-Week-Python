@@ -7,3 +7,6 @@ print(rand.randint(1,99))
 
 from random import randint
 print(randint(99,110))
+
+from math import pi, sin, cos, tan 
+print(pi, sin(90), cos, tan)
