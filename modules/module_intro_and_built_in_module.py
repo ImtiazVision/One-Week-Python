@@ -16,4 +16,4 @@
 
 # importing calender module
 import calendar
-print(calendar.isleap(2022))
+print(calendar.isleap(2024))
