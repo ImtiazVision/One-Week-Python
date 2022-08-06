@@ -4,3 +4,4 @@
 
 
 # EAFP: Easier to ask forgiveness than permission
+# "Assume things exist or will work, and catch exceptions if you are wrong"
