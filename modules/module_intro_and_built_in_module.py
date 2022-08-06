@@ -10,5 +10,6 @@
 # To use a module, we must import it first using the import keyword.
 
 # import random
+# print(random.randint(1,5))
 from random import randint
 print(randint(1,8))
