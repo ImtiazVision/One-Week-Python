@@ -6,3 +6,9 @@
 
 # Built-in Module: Standard Library
 # Python comes with tons of built-in modules that we can use, if we import them. Each module consists of methods and functionality bundled together. 
+
+# To use a module, we must import it first using the import keyword.
+
+# import random
+from random import randint
+print(randint(1,8))
