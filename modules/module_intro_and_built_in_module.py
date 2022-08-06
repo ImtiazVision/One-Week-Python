@@ -17,3 +17,4 @@
 # importing calender module
 import calendar
 print(calendar.isleap(2024))
+print(calendar.weekday(2010,4,22))
