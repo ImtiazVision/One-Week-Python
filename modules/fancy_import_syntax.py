@@ -10,3 +10,8 @@ print(randint(99,110))
 
 from math import pi, sin, cos, tan 
 print(pi, sin(90), cos, tan)
+
+# import * : We can import 'all' pieces of a given module individually using 'import *' (means import all) however this usually not the best approach to importing!
+
+from random import *
+print(randrange(1,5))
