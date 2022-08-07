@@ -15,3 +15,6 @@ print(pi, sin(90), cos, tan)
 
 from random import *
 print(randrange(1,5))
+
+from math import * # from math import all 
+print(sqrt(4))
