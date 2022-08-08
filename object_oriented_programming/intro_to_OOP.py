@@ -1,4 +1,4 @@
-# Object Oriented Programming is an approach to Programming that involves modeling 'things' into Python objects. These objects can contain both data AND functionality all wrapped up together into a reusable component.
+# Object Oriented Programming: is an approach to Programming that involves modeling 'things' into Python objects. These objects can contain both data AND functionality all wrapped up together into a reusable component.
 
 # For example, we we want to create a chess game, we need to have reusable components such as  match, AIPlayer, Player, Piece, Board etc. 
 
