@@ -1,0 +1,1 @@
+# pip is the Python package installer that we can use to install hundreds of thousands of packages for use in our projects. 
