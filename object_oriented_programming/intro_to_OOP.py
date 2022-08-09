@@ -4,5 +4,5 @@
 
 # Class: Classes are blueprints or recipes that we can later use to create objects from. A class describes what properties and functionality individual objects will contain. 
 
-# Instance: We call the individual objects that are created from a class blueprint instances. 
+# Instance: We call the individual objects that are created from a class blueprint are instances. 
 
