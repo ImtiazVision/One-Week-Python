@@ -10,3 +10,5 @@
 # Cupcake recipe: color, frosting, flavor, flour type, recipe instructions etc. all are unique(blueprint) for this cupcake recipe.
 # Instances: we can follow the basic rules from the class blueprint but however, we can instantiate them into different color,size, shape of cupcakes. 
 
+# Examples of class:
+# Task: has data such as name, description, status, priority, owner. It also has functionality such as assign() and complete()
