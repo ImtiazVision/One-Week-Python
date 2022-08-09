@@ -6,3 +6,6 @@
 
 # Instance: We call the individual objects that are created from a class blueprint are instances. 
 
+# Example of classes: 
+# Cupcake recipe: color, frosting, flavor, flour type, recipe instructions etc. all are unique(blueprint) for this cupcake recipe.
+
