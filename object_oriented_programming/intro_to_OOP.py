@@ -12,3 +12,7 @@
 
 # Examples of class:
 # Task: has data such as name, description, status, priority, owner. It also has functionality such as assign() and complete()
+
+# Example of instances:
+# one instances would be 'Bugfix': Fix the double click bug on home page navbar. It has medium priority and the owner is Theresa.
+# another instances derived from that class would be 'Login Ticket': Create  new login screen for app. It has high priority and the owner is Baker.
