@@ -16,3 +16,6 @@ print(mickey.tricks)
 
 # Lets do it again and create a new instance. Every time we call Puppy(), we are creating a new Puppy instance with its own name and tricks list.
 
+minnie = Puppy('Minnie')
+print(minnie.name)
+print(minnie.tricks)
