@@ -7,3 +7,6 @@ class Puppy:
   def __init__(self, name):
     self.name = name
     self.tricks = []
+    
+#Instantiating: To create a Puppy instance, we call Puppy() and provide a name. 
+
