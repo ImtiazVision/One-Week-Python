@@ -10,3 +10,6 @@ class Puppy:
     
 #Instantiating: To create a Puppy instance, we call Puppy() and provide a name. 
 
+mickey = Puppy('Mickey')
+print(mickey.name)
+print(mickey.tricks)
