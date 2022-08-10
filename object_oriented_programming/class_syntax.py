@@ -9,7 +9,7 @@ class Puppy:
     self.tricks = []
     
 #Instantiating: To create a Puppy instance, we call Puppy() and provide a name. 
-
+# __init__ method will run and self.name is set to "Mickey" and self.tricks is set to [] an empty list. 
 mickey = Puppy('Mickey')
 print(mickey.name)
 print(mickey.tricks)
