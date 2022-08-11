@@ -9,7 +9,11 @@ class Puppy:
   def add_trick(self, new_trick):
     self.tricks.append(new_trick)
 # Call it on an instance: 
-# Calling add_trick() on Airedale Terrier adds 'sit' to his trick
+# Calling add_trick() on Airedale Terrier adds 'sit' to his tricks list.
+AT = Puppy('Airedale Terrier')
+print(AT.tricks)
+AT.add_trick('sit')
+print(AT.tricks)
     
 # nums = [1,2,3]
 # reverse = nums.reverse()
