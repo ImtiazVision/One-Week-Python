@@ -1,5 +1,5 @@
 # We can add a method to a class. Lets see that in action.
-
+# the first parameter is always self and it refers to the particular instance that has been created. 
 class Puppy:
   def __init__(self, name):
     self.name = name
