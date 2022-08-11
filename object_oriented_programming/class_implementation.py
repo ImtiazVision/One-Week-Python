@@ -9,3 +9,5 @@ german = Dog('Elmo','German Shepard', 10001)
 print(german.name)
 print(german.breed)
 print(german.location)
+
+print(isinstance(german, Dog)) # isinstance will tell whether german meets the requirements of a class Dog. In this case, it's True. 
