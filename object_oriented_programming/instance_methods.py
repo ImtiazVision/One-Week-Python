@@ -1,0 +1,1 @@
+# We can add a method to a class. Lets see that in action.
