@@ -10,5 +10,6 @@ class Puppy:
     self.tricks.append(new_trick)
     
 # nums = [1,2,3]
-# nums.reverse()
+# reverse = nums.reverse()
+# print(reverse)
 # here, reverse() is a function but since it lives on an object i.e. 'nums', it is referred to as a method. 
