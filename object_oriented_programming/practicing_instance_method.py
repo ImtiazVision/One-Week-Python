@@ -6,7 +6,7 @@ class Puppy:
   def add_trick(self, new_trick):
     self.tricks.append(new_trick)
     
-  def perform_trick(self, trick): # adding another instance method 
+  def perform_trick(self, trick): # adding another instance method perform_trick and it will perform a trick if a Puppy instance knows the trick.
     if trick in self.tricks:
       print(f"{self.name} performs {trick}")
     else:
