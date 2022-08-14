@@ -11,3 +11,4 @@ class Puppy:
       print(f"{self.name} performs {trick}")
     else:
       print(f"{self.name} does not know {trick}")
+# Each Puppy instance is a different object and has unique actions if we want to provide so.
