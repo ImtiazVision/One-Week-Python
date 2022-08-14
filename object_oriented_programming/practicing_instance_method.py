@@ -12,3 +12,13 @@ class Puppy:
     else:
       print(f"{self.name} does not know {trick}")
 # Each Puppy instance is a different object and has unique actions if we want to provide so.
+
+# Affenpinscher
+affenpinscher = Puppy("Affenpinscher")
+affenpinscher.add_trick('sit')
+
+affenpinscher.perform_trick('sit')
+
+affenpinscher.perform_trick('stay')
+
+# Akita
