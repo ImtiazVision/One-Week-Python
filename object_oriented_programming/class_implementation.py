@@ -20,3 +20,5 @@ max = Dog('Max','American Eskimo', 99932)
 print(max.name)
 print(max.breed)
 print(max.location)
+
+# class is a blueprint 
