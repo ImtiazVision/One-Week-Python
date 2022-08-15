@@ -4,11 +4,17 @@ class Dog:
     self.breed = breed
     self.location = location
     self.tricks = []
+    
   def bark(self):
     print(f"{self.name} says WOOF!")
+    
   def learn_trick(self, new_trick):
     if new_trick not in self.tricks:
       self.tricks.append(new_trick)
+  
+  def perform_trick(self, trick):
+    if trick in self.tricks:
+      print(f"{self.name} performs {trick}")
     
 german = Dog('Elmo','German Shepard', 10001)
 print(german.name)
