@@ -18,6 +18,7 @@ print(german.bark())
 
 german.learn_trick('sit')
 german.learn_trick('down')
+german.learn_trick('down') # duplicates tricks won't be registered
 print(german.tricks)
 
 
