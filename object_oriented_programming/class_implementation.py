@@ -39,4 +39,9 @@ print(max.name)
 print(max.breed)
 print(max.location)
 
+max.learn_trick('sit')
+max.perform_trick('down')
+
+print(max.tricks)
+
 # class is a blueprint 
