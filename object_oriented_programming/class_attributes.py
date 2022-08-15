@@ -5,3 +5,9 @@ class Puppy:
   def __init__(self, name):
     self.name = name
     self.tricks = []
+    
+beagle = Puppy('Beagle')
+print(beagle.species)
+
+boerboel = Puppy('Boerboel')
+print(boerboel.species)
