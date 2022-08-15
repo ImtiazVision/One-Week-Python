@@ -6,6 +6,8 @@ class Dog:
     self.tricks = []
   def bark(self):
     print(f"{self.name} says WOOF!")
+  def learn_trick(self, new_trick):
+    self.tricks.append(new_trick)
     
 german = Dog('Elmo','German Shepard', 10001)
 print(german.name)
