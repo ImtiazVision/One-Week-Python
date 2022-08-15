@@ -7,7 +7,8 @@ class Dog:
   def bark(self):
     print(f"{self.name} says WOOF!")
   def learn_trick(self, new_trick):
-    self.tricks.append(new_trick)
+    if new_trick not in self.tricks:
+      self.tricks.append(new_trick)
     
 german = Dog('Elmo','German Shepard', 10001)
 print(german.name)
