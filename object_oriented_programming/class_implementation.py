@@ -16,6 +16,11 @@ print(german.breed)
 print(german.location)
 print(german.bark())
 
+german.learn_trick('sit')
+german.learn_trick('down')
+print(german.tricks)
+
+
 print(isinstance(german, Dog)) # isinstance will tell whether german meets the requirements of a class Dog. In this case, it's True. 
 # isinstance? return whether an object is an instance of a class or of a subclass thereof.
 
