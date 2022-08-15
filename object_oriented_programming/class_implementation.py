@@ -15,6 +15,9 @@ class Dog:
   def perform_trick(self, trick):
     if trick in self.tricks:
       print(f"{self.name} performs {trick}")
+    else:
+      print(f"{self.name} does not know {trick}")
+      
     
 german = Dog('Elmo','German Shepard', 10001)
 print(german.name)
