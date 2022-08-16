@@ -3,7 +3,7 @@
 class Puppy:
   species = 'canine'
   
-  @classmethod
+  @classmethod    # this is a decorator 
   def register_anon(cls):
     return cls('unknown')
   
