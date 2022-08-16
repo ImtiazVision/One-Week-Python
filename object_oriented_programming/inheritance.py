@@ -8,6 +8,10 @@ class Cat:
 # The following Lion class inherits from the base class Cat on line 9.
 
 class Lion(Cat):
+  def __init__(self, name, pride_name):
+    super().__init__(name) # here, we are accessing the parent init 
+    self.pride_name = pride_name
+  
   def roar(self):
     print(f"{self.name} roars")
 # eli is a Lion, but it can meow even though meow() method is defined on Cat class, because Lion inherits functionalities from base class Cat. 
