@@ -10,3 +10,8 @@ class Cat:
 class Lion(Cat):
   def roar(self):
     print(f"{self.name} roars")
+    
+# eli is a Lion, but it can meow because Lion inherits functionalities from base class Cat. 
+
+eli = Lion('Eli')
+eli.meow() # Eli meows
