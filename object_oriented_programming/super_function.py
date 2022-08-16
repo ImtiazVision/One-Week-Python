@@ -1,4 +1,4 @@
-# super() function is used to refer to the base or parent class. 
+# super() function is used to refer to the base or parent class. Sometimes, we need to access functionalities/methods from the parent/base class and super() does exactly that for us. 
 
 class Cat:
   def __init__(self,name):
