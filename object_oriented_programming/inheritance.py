@@ -1,3 +1,4 @@
+# The main idea behind inheritance is that multiple class can share functionalities between them. 
 class Cat:
   def __init__(self,name):
     self.name = name
